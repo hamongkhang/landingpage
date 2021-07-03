@@ -1,7 +1,7 @@
+import Bangtin from "./Bangtin";
 const Face=()=>{
     return(
 <div id="swd-slideshow">
-  
   <div id="hero" style={{backgroundImage: 'url("assets/img/DSC00244.jpg")'}} >
   <div className="container">
     <div className="row">
@@ -10,7 +10,7 @@ const Face=()=>{
           <h1>We are students of <span>PN Viet Nam</span></h1>
           <h2>We are Blue Team of PNV</h2>
           <div className="text-center text-lg-left">
-            <a href="#about" className="btn-get-started scrollto">Donate Now</a>
+            <a data-toggle="collapse" href="#donation2" className="collapsed">Donate Now</a>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" >Watch Video</a>
           </div>
         </div>
@@ -44,7 +44,7 @@ const Face=()=>{
           <h1>We are students of <span>PN Viet Nam</span></h1>
           <h2>We are Blue Team of PNV</h2>
           <div className="text-center text-lg-left">
-            <a href="#about" className="btn-get-started scrollto">Donate Now</a>
+          <a data-toggle="collapse" href="#donation2" className="collapsed">Donate Now</a>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" >Watch Video</a>
           </div>
         </div>
@@ -78,7 +78,7 @@ const Face=()=>{
           <h1>We are students of <span>PN Viet Nam</span></h1>
           <h2>We are Blue Team of PNV</h2>
           <div className="text-center text-lg-left">
-            <a href="#about" className="btn-get-started scrollto">Donate Now</a>
+          <a data-toggle="collapse" href="#donation2" className="collapsed">Donate Now</a>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" >Watch Video</a>
           </div>
         </div>

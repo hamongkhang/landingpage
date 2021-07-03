@@ -11,11 +11,13 @@ import Galery from "./components/Galery";
 import Pricing from "./components/Pricing";
 import Team from "./components/Team";
 import Testimonial from "./components/Testimonial";
-import Partner from "./components/Partner";
 import $ from 'jquery';
 import Alumni from "./components/Alumni";
 import PartnerLocal from "./components/PartnerLocal";
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
+import Map from "./components/Map";
+import Bangtin from "./components/Bangtin";
+import Donation from "./components/Donation";
 
 const App=()=>{
   return(
@@ -25,19 +27,22 @@ const App=()=>{
     <main id="main">
         <Section />
         <Detail />
-        <Feature />
         <Count />
-        <Partner />
-        <PartnerLocal />
-        <Galery />
+        <Donation />
         <Alumni />
+        <Feature />
+        <PartnerLocal />
+        <Map />
         <Team />
+        <Galery />
         <Testimonial />
         <Pricing />
         <FAQ />
     </main>
     <Contact />
     <Footer />
+    <div className="bangtin"><a data-toggle="collapse" href="#bangtinclass"><h3>Bảng tin</h3></a></div>
+    <Bangtin />
     <a href="#" className="back-to-top"><i className="icofont-simple-up" /></a>
     <div id="preloader" ></div>
     </Router>

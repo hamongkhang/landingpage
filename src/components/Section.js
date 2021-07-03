@@ -20,10 +20,10 @@ const Section = () => {
                     <li data-aos="fade-up">
                       <div className="goals">
                         <img src="assets/img/tải xuống.png" />
-                        <a data-toggle="collapse" className="collapse" href="#boi-list-1"> it laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        <a data-toggle="collapse" className="collapse" href="#boi1"> it laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                           <i className="bx bx-chevron-down icon-show" /><i className="bx bx-chevron-up icon-close" /></a>
                       </div>
-                      <div id="boi-list-1" className="collapse show" data-parent=".boi-list">
+                      <div id="boi1" className="collapse show" data-parent=".boi-list">
                         <p>
                           Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                         </p>
@@ -32,10 +32,10 @@ const Section = () => {
                     <li data-aos="fade-up" data-aos-delay={100}>
                       <div className="goals">
                         <img src="assets/img/tải xuống (3).png" />
-                        <a data-toggle="collapse" className="collapsed" href="#boi-list-2"> delit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        <a data-toggle="collapse" className="collapsed" href="#boi2"> delit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                           <i className="bx bx-chevron-down icon-show" /><i className="bx bx-chevron-up icon-close" /></a>
                       </div>
-                      <div id="boi-list-2" className="collapse" data-parent=".boi-list">
+                      <div id="boi2" className="collapse" data-parent=".boi-list">
                         <p>
                           Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                         </p>
@@ -44,10 +44,10 @@ const Section = () => {
                     <li data-aos="fade-up">
                       <div className="goals">
                         <img src="assets/img/tải xuống (1).png" />
-                        <a data-toggle="collapse" className="collapsed" href="#boi-list-3"> laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        <a data-toggle="collapse" className="collapsed" href="#boi3"> laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                           <i className="bx bx-chevron-down icon-show" /><i className="bx bx-chevron-up icon-close" /></a>
                       </div>
-                      <div id="boi-list-3" className="collapse" data-parent=".boi-list">
+                      <div id="boi3" className="collapse" data-parent=".boi-list">
                         <p>
                           Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                         </p>
@@ -57,10 +57,10 @@ const Section = () => {
                     <li data-aos="fade-up" data-aos-delay={400}>
                       <div className="goals">
                         <img src="assets/img/tải xuống (2).png" />
-                        <a data-toggle="collapse" className="collapsed" href="#boi-list-4"> laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        <a data-toggle="collapse" className="collapsed" href="#boi4"> laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                           <i className="bx bx-chevron-down icon-show" /><i className="bx bx-chevron-up icon-close" /></a>
                       </div>
-                      <div id="boi-list-4" className="collapse" data-parent=".boi-list">
+                      <div id="boi4" className="collapse" data-parent=".boi-list">
                         <p>
                           Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                         </p>

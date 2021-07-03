@@ -8,7 +8,7 @@ const Footer=()=>{
           <div className="footer-info">
             <h3>Bootslander</h3>
             <p className="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
-            <p>
+            <p> 
               A108 Adam Street <br />
               NY 535022, USA<br /><br />
               <strong>Phone:</strong> +1 5589 55488 55<br />
