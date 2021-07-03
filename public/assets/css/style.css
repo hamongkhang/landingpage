@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   color:white;
   text-decoration: none;
   z-index: 99999;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 #bangtinclass .bangtrong{
   margin: 30px 30px 30px 30px;
