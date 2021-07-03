@@ -76,26 +76,26 @@ Phương pháp giáo dục mang tính chuyên sâu và toàn diện của c
         <div className="container" data-aos="fade-up">
           <ul className="nav nav-tabs row d-flex">
             <li className="nav-item col-4">
-              <a className="nav-link active show" data-toggle="tab" href="#tab-1">
+              <a className="nav-link active show" data-toggle="tab" href="#detail1">
                 <i id="iconcon" className="ri-gps-line" />
                 <h4 className="d-none d-lg-block">Chương trình đào tạo và thực hành thiết thực</h4>
               </a>
             </li>
             <li className="nav-item col-4">
-              <a className="nav-link" data-toggle="tab" href="#tab-2">
+              <a className="nav-link" data-toggle="tab" href="#detail2">
                 <i className="ri-body-scan-line" />
                 <h4 className="d-none d-lg-block">Đào tạo bài bản các kĩ năng chuyên nghiệp</h4>
               </a>
             </li>
             <li className="nav-item col-4">
-              <a className="nav-link" data-toggle="tab" href="#tab-3">
+              <a className="nav-link" data-toggle="tab" href="#detail3">
                 <i className="ri-sun-line" />
                 <h4 className="d-none d-lg-block">Chương trình giáo dục phát triển cá nhân</h4>
               </a>
             </li>
           </ul>
           <div className="tab-content">
-            <div className="tab-pane active show" id="tab-1">
+            <div className="tab-pane active show" id="detail1">
               <div className="row">
                 <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay={100}>
                   <p>
@@ -108,7 +108,7 @@ Sinh viên tham gia chương trình học cấp chứng chỉ về kiểm thử.
                 </div>
               </div>
             </div>
-            <div className="tab-pane" id="tab-2">
+            <div className="tab-pane" id="detail2">
               <div className="row">
                 <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
                   <p className="font-italic">
@@ -133,7 +133,7 @@ Năm 3: Thực tập 5 tháng để áp dụng các kĩ năm kĩ thuậ
                 </div>
               </div>
             </div>
-            <div className="tab-pane" id="tab-3">
+            <div className="tab-pane" id="detail3">
               <div className="row">
                 <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
                   <p className="font-italic">

@@ -4,81 +4,149 @@ const Feature=()=>{
     <section id="features" className="features">
     <div className="container">
       <div className="section-title" data-aos="fade-up">
-        <h2>Features</h2>
-        <p>Check The Features</p>
+        <h2>Partner</h2>
+        <p>Our Partner</p>
       </div>
       <div className="row" data-aos="fade-left">
         <div className="col-lg-3 col-md-4">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={50}>
-            <i className="ri-store-line" style={{color: '#ffbb2c'}} />
-            <h3><a href>Lorem Ipsum</a></h3>
-          </div>
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-1"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-1" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
-        <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={100}>
-            <i className="ri-bar-chart-box-line" style={{color: '#5578ff'}} />
-            <h3><a href>Dolor Sitema</a></h3>
-          </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-2"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-2" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
-        <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={150}>
-            <i className="ri-calendar-todo-line" style={{color: '#e80368'}} />
-            <h3><a href>Sed perspiciatis</a></h3>
-          </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-3"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-3" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
-        <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={200}>
-            <i className="ri-paint-brush-line" style={{color: '#e361ff'}} />
-            <h3><a href>Magni Dolores</a></h3>
-          </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-4"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-4" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
-        <div className="col-lg-3 col-md-4 mt-4">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={250}>
-            <i className="ri-database-2-line" style={{color: '#47aeff'}} />
-            <h3><a href>Nemo Enim</a></h3>
-          </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-5"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-5" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
-        <div className="col-lg-3 col-md-4 mt-4">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={300}>
-            <i className="ri-gradienter-line" style={{color: '#ffa76e'}} />
-            <h3><a href>Eiusmod Tempor</a></h3>
-          </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-6"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-6" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
-        <div className="col-lg-3 col-md-4 mt-4">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={350}>
-            <i className="ri-file-list-3-line" style={{color: '#11dbcf'}} />
-            <h3><a href>Midela Teren</a></h3>
-          </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-7"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-7" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
-        <div className="col-lg-3 col-md-4 mt-4">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={400}>
-            <i className="ri-price-tag-2-line" style={{color: '#4233ff'}} />
-            <h3><a href>Pira Neve</a></h3>
-          </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-8"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-8" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
-        <div className="col-lg-3 col-md-4 mt-4">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={450}>
-            <i className="ri-anchor-line" style={{color: '#b2904f'}} />
-            <h3><a href>Dirada Pack</a></h3>
-          </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-9"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-9" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
-        <div className="col-lg-3 col-md-4 mt-4">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={500}>
-            <i className="ri-disc-line" style={{color: '#b20969'}} />
-            <h3><a href>Moton Ideal</a></h3>
-          </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-10"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-10" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
-        <div className="col-lg-3 col-md-4 mt-4">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={550}>
-            <i className="ri-base-station-line" style={{color: '#ff5828'}} />
-            <h3><a href>Verdo Park</a></h3>
-          </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-11"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-11" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
-        <div className="col-lg-3 col-md-4 mt-4">
-          <div className="icon-box" data-aos="zoom-in" data-aos-delay={600}>
-            <i className="ri-fingerprint-line" style={{color: '#29cc61'}} />
-            <h3><a href>Flavor Nivelanda</a></h3>
-          </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-12"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-12" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
+        </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-13"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-13" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
+        </div>
+        <div className="col-lg-3 col-md-4">
+        <section id="company" className="company section-bg">
+                      <a data-toggle="collapse" href="#boi-list-14"><img src="assets/img/partner/DVT-400x284.png" /></a>
+                      <div id="boi-list-14" className="collapse">
+                        <p>
+                          Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        </p>
+                </div>
+            </section>
         </div>
       </div>
     </div>

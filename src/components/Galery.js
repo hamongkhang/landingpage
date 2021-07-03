@@ -3,8 +3,8 @@ const Galery=()=>{
     <section id="gallery" className="gallery">
     <div className="container">
       <div className="section-title" data-aos="fade-up">
-        <h2>Gallery</h2>
-        <p>Check our Gallery</p>
+        <h2>Activity</h2>
+        <p>Our Activity</p>
       </div>
       <div className="row no-gutters" data-aos="fade-left">
         <div className="col-lg-3 col-md-4">
