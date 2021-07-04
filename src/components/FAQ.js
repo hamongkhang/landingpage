@@ -102,7 +102,7 @@ const FAQ=()=>{
                               <div className="faq_text">        
                                   <h2>IT Development</h2>
                                 <div id="text">    
-                                    <ul>
+                                    <ul style={{listStyleType: 'square'}}>
                                       <li><span>English Communication Skills</span></li>
                                       <li><span>Team player</span></li>
                                       <li><span>Time management</span></li>

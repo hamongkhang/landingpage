@@ -16,17 +16,17 @@ body {
 
 a {
   color: #1acc8d;
-  text-decoration: none;
+ 
 }
 
 a:hover {
   color: #34e5a6;
-  text-decoration: none;
+ 
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
-  text-decoration: none;
+ 
 }
 
 /*--------------------------------------------------------------
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .bangtin a {
   position: fixed;
-  text-decoration: none;
+ 
   text-align: center;
   color:white;
   margin:10px 0 0 35px;
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .bangtin a:hover {
   position: fixed;
-  text-decoration: none;
+ 
   text-align: center;
   color:white;
   margin:10px 0 0 35px;
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   height:50px;
   background-color: #12f71d;
   bottom: 15px;
-  text-decoration: none;
+ 
   z-index: 99999;
   border-radius: 20px;
 }
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ffa600;
   bottom: 15px;
   color:white;
-  text-decoration: none;
+ 
   z-index: 99999;
   border-radius: 10px;
 }
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #292a2b;
   opacity: 0.9;
   bottom: 70px;
-  text-decoration: none;
+ 
   z-index: 99999;
   border-radius: 3px;
 }
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
   width:1300px;
   height:650px;
   color:white;
-  text-decoration: none;
+ 
 }
 /*--------------------------------------------------------------
 /*--------------------------------------------------------------
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
   right: 15px;
   bottom: 15px;
-  text-decoration: none;
+ 
   z-index: 99999;
 }
 
@@ -242,13 +242,13 @@ h1, h2, h3, h4, h5, h6 {
   background: #00aeff;
   color: #fff;
   transition: all 0.4s;
-  text-decoration: none;
+ 
 }
 
 .back-to-top i:hover {
   background: #ffc400;
   color: #fff;
-  text-decoration: none;
+ 
 }
 
 /*--------------------------------------------------------------
@@ -457,7 +457,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
-  text-decoration: none;
+ 
 }
 
 #header .logo img {
@@ -520,7 +520,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 30px;
   margin: 25px;
   outline: none;
-  text-decoration: none;
+ 
 }
 
 
@@ -584,7 +584,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   white-space: nowrap;
   float: left;
-  text-decoration: none;
+ 
 }
 
 .nav a {
@@ -596,7 +596,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-  text-decoration: none;
+ 
 }
 
 .nav > ul > li > a:before {
@@ -619,7 +619,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav a:hover, .nav .active > a, .nav li:hover > a {
   color:#15c9f7;
-  text-decoration: none;
+ 
 }
 
 .nav .drop-down ul {
@@ -753,7 +753,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
   color: #1acc8d;
-  text-decoration: none;
+ 
 }
 
 .mobile-nav .drop-down > a:after {
@@ -849,13 +849,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   border: 2px solid rgb(238, 9, 9);
   color: #fff;
-  text-decoration: none;
+ 
 }
 
 .cta .cta-btn:hover {
   background: #15c9f7;
   border: 2px solid #cc1616;
-  text-decoration: none;
+ 
 }
 
 
@@ -921,13 +921,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   border: 2px solid rgb(238, 9, 9);
   color: #fff;
-  text-decoration: none;
+ 
 }
 
 .map .cta-btn:hover {
   background: #15c9f7;
   border: 2px solid #cc1616;
-  text-decoration: none;
+ 
 }
 
 
@@ -1052,7 +1052,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
-  text-decoration: none;
+ 
 }
 
 .portfolio .portfolio-wrap {
@@ -1063,14 +1063,14 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(17, 17, 17, 0.6);
 }
 .khang{
-  text-decoration: none;
+ 
   font-size: 14px;
   font-weight: 600;
 
   color:rgba(17, 17, 17, 0.6);
 }
 .khang:hover{
-  text-decoration: none;
+ 
   font-size: 14px;
   font-weight: 600;
   color: #fff;
@@ -1238,12 +1238,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   color: #fff;
   background: #15c9f7;
-  text-decoration: none;
+ 
 }
 
 #swd-slideshow #hero .text-center a:hover {
   background: #dbc608;
-  text-decoration: none;
+ 
 }
 
 #hero .animated {
@@ -2100,7 +2100,7 @@ section {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  text-decoration: none;
+ 
 }
 
 .pricing .btn-buy:hover {
@@ -2128,21 +2128,21 @@ section {
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
-.faq .show .faq_text .text ul li{
+.show .faq_text .text ul li{
   float:left;
   color:rgb(223, 156, 156);
   height:70px;
 }
 
-.faq .container .faq-list .faq-list-1 .faq_text{
+.show .faq-list .faq-list-1 .faq_text{
   display:flex;
 }
-.faq .container .faq-list .faq-list-1 .text ul{
+.show .container .faq-list .faq-list-1 #text ul{
   width:600px;
   margin: 10px 10px 10px 10px;
   display:block;
 }
-.faq .container .faq-list .faq-list-1 .text ul li{
+.faq .container .faq-list .faq-list-1 #text ul li{
   float:left;
   color:#fff;
   height:70px;
@@ -2189,7 +2189,7 @@ section {
   font-weight: 500;
   padding: 0 30px;
   outline: none;
-  text-decoration: none;
+ 
 }
 
 .faq .faq-list .icon-help {
@@ -2250,7 +2250,7 @@ section {
     color:white;
     opacity: 0.95;
     bottom: 70px;
-    text-decoration: none;
+   
     z-index: 99999;
     border-radius: 3px;
     margin-left:150px;
@@ -2298,7 +2298,7 @@ section {
   font-weight: 500;
   padding: 0 30px;
   outline: none;
-  text-decoration: none;
+ 
 }
 
 .donationcss .donationcss-list .icon-help {
@@ -2387,11 +2387,11 @@ section {
 }
 .gmailphone a{
   color: rgb(29, 27, 27);
-  text-decoration: none;
+ 
 }
 .gmailphone a:hover{
   color: #02b7ff;
-  text-decoration: none;
+ 
 }
 .contact .info .email, .contact .info .phone {
   margin-top: 40px;
@@ -2514,7 +2514,7 @@ section {
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
-  text-decoration: none;
+ 
 }
 
 #footer .footer-top {
@@ -2528,11 +2528,11 @@ section {
   border-top: 4px solid #02b7ff;
   text-align: center;
   padding: 30px 20px;
-  text-decoration: none;
+ 
 }
 
 #footer .footer-top .footer-info h3 {
-  text-decoration: none;
+ 
   font-size: 24px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
@@ -2542,7 +2542,7 @@ section {
 }
 
 #footer .footer-top .footer-info p {
-  text-decoration: none;
+ 
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
@@ -2561,13 +2561,13 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  text-decoration: none;
+ 
 }
 
 #footer .footer-top .social-links a:hover {
   background: #02b7ff;
   color: #fff;
-  text-decoration: none;
+ 
 }
 
 #footer .footer-top h4 {
@@ -2576,7 +2576,7 @@ section {
   color: #02b7ff;
   position: relative;
   padding-bottom: 12px;
-  text-decoration: none;
+ 
 }
 
 #footer .footer-top .footer-links {
@@ -2611,7 +2611,7 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
-  text-decoration: none;
+ 
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -2624,7 +2624,7 @@ section {
   padding: 6px 10px 6px 15px;
   position: relative;
   border-radius: 50px;
-  text-decoration: none;
+ 
 }
 
 #footer .footer-top .footer-newsletter form input[type="email"] {
@@ -2646,7 +2646,7 @@ section {
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
-  text-decoration: none;
+ 
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
