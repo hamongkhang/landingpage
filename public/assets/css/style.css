@@ -76,6 +76,150 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Bảng tin
+--------------------------------------------------------------*/
+.bangtin a {
+  position: fixed;
+  text-decoration: none;
+  text-align: center;
+  color:white;
+  margin:10px 0 0 35px;
+}
+#bangtinclass .bangtrong #register #langu{
+  width:500px;
+  height:100px;
+  border-radius: 10px;
+  border:none;
+  display:flex;
+}
+#bangtinclass .bangtrong #register #langu input{
+  width:20px;
+  height:20px;
+}
+#bangtinclass .bangtrong #register #langu img{
+  margin:16px;
+  width:70px;
+  height:50px;
+}
+.bangtin a:hover {
+  position: fixed;
+  text-decoration: none;
+  text-align: center;
+  color:white;
+  margin:10px 0 0 35px;
+}
+.bangtin{
+  position: fixed;
+  left:15px;
+  width:200px;
+  height:50px;
+  background-color: #12f71d;
+  bottom: 15px;
+  text-decoration: none;
+  z-index: 99999;
+  border-radius: 20px;
+}
+.bangtin:hover{
+  position: fixed;
+  left:15px;
+  width:200px;
+  height:50px;
+  background-color: #ffa600;
+  bottom: 15px;
+  color:white;
+  text-decoration: none;
+  z-index: 99999;
+  border-radius: 10px;
+}
+#bangtinclass .bangtrong{
+  margin: 30px 30px 30px 30px;
+}
+#bangtinclass .bangtrong #bang{
+  background-color: #00aeff;
+  margin:10px 10px 10px 20px;
+  display:grid;
+  color:white;
+  border:solid #00aeff;
+  border-radius: 5px;
+}
+#bangtinclass .bangtrong #bang a{
+  text-decoration:none;
+  color: white;
+}
+#bangtinclass .bangtrong #bang img{
+  width:100%;
+  height:150px;
+}
+#bangtinclass .bangtrong #register{
+  background-color: #00aeff;
+  margin:10px 0px 10px 20px;
+  display:grid;
+  color:white;
+  border:solid #00aeff;
+  border-radius: 5px;
+}
+#bangtinclass .bangtrong #register h6{
+  color:white;
+  margin:30px 20px 10px 20px;
+}
+#bangtinclass .bangtrong #register input{
+  color:rgb(0, 0, 0);
+  margin:30px 20px 10px 20px;
+  width:500px;
+  height:50px;
+  border-radius: 10px;
+  border:none;
+}
+#bangtinclass .bangtrong #register button{
+  background-color: #ffd000;
+  margin:5px 5px 10px 5px;
+  color:black;
+  width:120px;
+  height:50px;
+  border-radius: 10px;
+}
+#bangtinclass .bangtrong #register button:hover{
+  background-color: #ff3c00;
+  margin:5px 5px 10px 5px;
+  color:black;
+  width:120px;
+  height:50px;
+  border-radius: 10px;
+}
+#bangtinclass .bangtrong #register h3{
+  color:white;
+  margin:10px 10px 10px 10px;
+}
+
+.thang{
+  width:1000;
+  height:800px;
+  margin:10px 5px 0px 20px;
+  background-color: #00aeff;
+}
+#bangtinclass{
+  overflow-x:hidden;
+  overflow-y:auto;
+  position: fixed;
+  left:15px;
+  width:1300px;
+  height:700px;
+  background-color: #292a2b;
+  opacity: 0.9;
+  bottom: 70px;
+  text-decoration: none;
+  z-index: 99999;
+  border-radius: 3px;
+}
+#bangtinclass p{
+  position: fixed;
+  width:1300px;
+  height:650px;
+  color:white;
+  text-decoration: none;
+}
+/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
@@ -116,6 +260,113 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*--------------------------------------------------------------
+# share
+--------------------------------------------------------------*/
+
+.share .testimonial-item {
+  text-align: center;
+  color: #fff;
+}
+
+.share .testimonial-item .testimonial-img {
+  width:100px;
+  border-radius: 50%;
+  border: 6px solid rgba(121, 115, 115, 0.959);
+  margin: 0 auto;
+}
+
+.share .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: rgb(14, 235, 179);
+}
+
+.share .testimonial-item h4 {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 15px 0;
+}
+
+.share .testimonial-item .quote-icon-left, .share .testimonial-item .quote-icon-right {
+  color: rgba(126, 117, 117, 0.993);
+  font-size: 26px;
+}
+
+.share .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.share .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.share .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #eee;
+}
+
+.share .owl-nav, .share .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.share .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(238, 238, 238, 0.925) !important;
+}
+
+.share .owl-dot.active {
+  background-color: #15c9f7 !important;
+}
+
+@media (min-width: 1024px) {
+  .share {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 992px) {
+  .share .testimonial-item p {
+    width: 80%;
+  }
+}
+
+
+.share {
+  width: 100%;
+  height:400px;
+  background: url("../img/Copy of IMG_5469.jpg") fixed center center;;
+  position: relative;
+}
+
+.share::before {
+  content: "";
+  background: linear-gradient(to right, #512da8, #711e72);
+  position: absolute;
+  bottom: 0;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.share .section-header {
+  margin-bottom: 40px;
+}
+
+/*--------------------------------------------------------------
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -602,6 +853,78 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta .cta-btn:hover {
+  background: #15c9f7;
+  border: 2px solid #cc1616;
+  text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------
+/*--------------------------------------------------------------
+# Map
+--------------------------------------------------------------*/
+
+#map:before {
+  content: "";
+  background: linear-gradient(to right, #512da8, #711e72);
+  position: absolute;
+  bottom: 0;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.map {
+  width: 100%;
+  height:650px;
+  background: url("../img/Copy of IMG_5469.jpg") fixed center center;;
+  position: relative;
+}
+
+.map #map-child{
+  display:flex;
+}
+.map #map-child ul{
+  width:600px;
+  margin: 10px 10px 10px 10px;
+  display:block;
+}
+.map #map-child ul li{
+  float:left;
+  color:#fff;
+  height:70px;
+}
+.map #map-child img{
+  width:400px;
+  height:400px;
+  margin: 10px 10px 10px 100px;
+}
+.map h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.map p {
+  color: #fff;
+}
+
+.map .cta-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid rgb(238, 9, 9);
+  color: #fff;
+  text-decoration: none;
+}
+
+.map .cta-btn:hover {
   background: #15c9f7;
   border: 2px solid #cc1616;
   text-decoration: none;
@@ -1344,6 +1667,7 @@ section {
     opacity: 0;
   }
 }
+/* ////////////////////////////TEAM/////////////////////////////// */
 
 /*--------------------------------------------------------------
 # Features
@@ -1354,6 +1678,11 @@ section {
   padding: 20px;
   background: #f5f5ff;
   transition: ease-in-out 0.3s;
+}
+
+.features img {
+  width:300px;
+  height:150px;
 }
 
 .features .icon-box i {
@@ -1586,30 +1915,50 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team {
-  background: #fff;
+
+.staff .owl-dots {
+  margin-top: 5px;
+  margin-left:600px;
 }
 
-.team .member {
+.staff .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.staff .owl-dot.active {
+  background-color: #15c9f7 !important;
+}
+
+
+.staff .staff-carousel{
+  margin: 0 0px 0 130px;
+}
+.staff .owl-item .member {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
+  width:70%;
 }
 
-.team .member .pic {
+.staff .owl-item .member .pic {
   border-radius: 4px;
   overflow: hidden;
 }
 
-.team .member img {
+.staff .owl-item .member img {
   transition: all ease-in-out 0.4s;
 }
 
-.team .member:hover img {
+.staff .owl-item .member:hover img {
   transform: scale(1.1);
 }
 
-.team .member .member-info {
+.staff .owl-item .member .member-info {
   position: absolute;
   bottom: -80px;
   left: 0px;
@@ -1620,7 +1969,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.team .member h4 {
+.staff .owl-item .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
@@ -1629,7 +1978,7 @@ section {
   padding-bottom: 10px;
 }
 
-.team .member h4::after {
+.staff .owl-item .member h4::after {
   content: '';
   position: absolute;
   display: block;
@@ -1640,27 +1989,27 @@ section {
   left: calc(50% - 25px);
 }
 
-.team .member span {
+.staff .owl-item .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #01036f;
 }
 
-.team .member .social {
+.staff .owl-item .member .social {
   margin-top: 10px;
 }
 
-.team .member .social a {
+.staff .owl-item .member .social a {
   transition: color 0.3s;
   color: #01036f;
 }
 
-.team .member .social a:hover {
+.staff .owl-item .member .social a:hover {
   color: #02b7ff;
 }
 
-.team .member .social i {
+.staff .owl-item .member .social i {
   font-size: 16px;
   margin: 0 2px;
 }
@@ -1779,6 +2128,37 @@ section {
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
+.faq .show .faq_text .text ul li{
+  float:left;
+  color:rgb(223, 156, 156);
+  height:70px;
+}
+
+.faq .container .faq-list .faq-list-1 .faq_text{
+  display:flex;
+}
+.faq .container .faq-list .faq-list-1 .text ul{
+  width:600px;
+  margin: 10px 10px 10px 10px;
+  display:block;
+}
+.faq .container .faq-list .faq-list-1 .text ul li{
+  float:left;
+  color:#fff;
+  height:70px;
+}
+
+.faq .container .faq-list .faq-list-1 .faq_text h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.faq .container .faq-list .faq-list-1 .faq_text p {
+  color: rgb(7, 7, 7);
+
+}
+
 .faq .faq-list {
   padding: 0;
 }
@@ -1857,6 +2237,117 @@ section {
     padding: 0;
   }
 }
+/*--------------------------------------------------------------
+# Donation
+--------------------------------------------------------------*/
+#donation2{
+    overflow-x:hidden;
+    overflow-y:auto;
+    position: fixed;
+    width:1000px;
+    height:700px;
+    background-color: #292a2b;
+    color:white;
+    opacity: 0.95;
+    bottom: 70px;
+    text-decoration: none;
+    z-index: 99999;
+    border-radius: 3px;
+    margin-left:150px;
+}
+#donation2 #close{
+  background-color: #292a2b;
+  color:rgb(252, 1, 1);
+  border:none;
+  width:50px;
+  height:50px;
+  font-size: 30px;
+  margin-top: 25px;
+  margin-right: 20px;
+  float:right;
+}
+
+#donationcss{
+  background-color: #02b7ff;
+}
+.donationcss .donationcss-list {
+  padding: 0;
+}
+
+.donationcss .donationcss-list button{
+  width:200px;
+  height:70px;
+  border-radius: 20px;
+  border:2px solid white;
+  background-color:#02b7ff ;
+}
+.donationcss .donationcss-list button:hover{
+  width:200px;
+  height:70px;
+  border-radius: 20px;
+  border:2px solid white;
+  background-color:#ffaf02 ;
+}
+
+.donationcss .donationcss-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  text-decoration: none;
+}
+
+.donationcss .donationcss-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #02b7ff;
+}
+
+.donationcss .donationcss-list .icon-show, .donationcss .donationcss-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.donationcss .donationcss-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.donationcss .donationcss-list .icon-show {
+  display: none;
+}
+
+.donationcss .donationcss-list a.collapsed {
+  color: #343a40;
+}
+
+.donationcss .donationcss-list a.collapsed:hover {
+  color: #02b7ff;
+}
+
+.donationcss .donationcss-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.donationcss .donationcss-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .donationcss .donationcss-list {
+    padding: 0;
+  }
+}
+
+/*--------------------------------------------------------------
 
 /*--------------------------------------------------------------
 # Contact
