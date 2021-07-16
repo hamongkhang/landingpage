@@ -28,7 +28,136 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
+/* //////////////////////////////////// */
 
+.staff .slides > div:target {
+  transform: scale(0.8);
+}
+.staff .slider .member {
+  text-align: center;
+  position: relative;
+  width: 300px;
+  flex-shrink: 0;
+  margin: 10px 0px 0px 30px;
+}
+
+.staff .slider .member .pic {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.staff .member img {
+  transition: all ease-in-out 0.4s;
+}
+.staff .member:hover img {
+  transform: scale(1.1);
+}
+
+.staff .member .member-info {
+  position: absolute;
+  bottom: -80px;
+  left: 0px;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 0;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.staff .member h4 {
+  font-weight: 700px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #01036f;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.staff .member h4::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #0d12fc;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.staff .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #01036f;
+}
+
+.staff .member .social {
+  margin-top: 10px;
+}
+
+.staff .member .social a {
+  transition: color 0.3s;
+  color: #01036f;
+}
+
+.staff .member .social a:hover {
+  color: #02b7ff;
+}
+
+.staff .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.staff .slider {
+  color: white;
+  width: 1400px;
+  height: 600px;
+  display: flex;
+  overflow-x: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  -webkit-scroll-snap-points-x: repeat(300px);
+      -ms-scroll-snap-points-x: repeat(300px);
+          scroll-snap-points-x: repeat(300px);
+  -webkit-scroll-snap-type: mandatory;
+      -ms-scroll-snap-type: mandatory;
+          scroll-snap-type: mandatory;
+}
+
+
+
+
+
+
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 14s ease infinite;
+}
+.testimonial-item {
+  float: left;
+  height: 510px;
+  width: 728px;
+  position: relative;
+}
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  80% {margin-left: -1456px;}
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -129,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
   color:white;
   text-decoration: none;
   z-index: 99999;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 #bangtinclass .bangtrong{
   margin: 30px 30px 30px 30px;
@@ -815,7 +944,7 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(to right, #512da8, #711e72);
   position: absolute;
   bottom: 0;
-  opacity: 0.9;
+  opacity: 0.8;
   top: 0;
   left: 0;
   right: 0;
@@ -829,12 +958,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .cta h3 {
   color: #fff;
+  position: relative;
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
   color: #fff;
+  position: relative;
 }
 
 .cta .cta-btn {
@@ -847,6 +978,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 28px;
   transition: 0.5s;
   margin-top: 10px;
+  position: relative;
   border: 2px solid rgb(238, 9, 9);
   color: #fff;
   text-decoration: none;
@@ -869,7 +1001,7 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(to right, #512da8, #711e72);
   position: absolute;
   bottom: 0;
-  opacity: 0.9;
+  opacity: 0.8;
   top: 0;
   left: 0;
   right: 0;
@@ -886,6 +1018,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .map #map-child ul{
   width:600px;
+  position: relative;
   margin: 10px 10px 10px 10px;
   display:block;
 }
@@ -893,20 +1026,24 @@ h1, h2, h3, h4, h5, h6 {
   float:left;
   color:#fff;
   height:70px;
+  position: relative;
 }
 .map #map-child img{
   width:400px;
   height:400px;
+  position: relative;
   margin: 10px 10px 10px 100px;
 }
 .map h3 {
   color: #fff;
+  position: relative;
   font-size: 28px;
   font-weight: 700;
 }
 
 .map p {
   color: #fff;
+  position: relative;
 }
 
 .map .cta-btn {
@@ -916,6 +1053,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
+  position: relative;
   padding: 10px 28px;
   transition: 0.5s;
   margin-top: 10px;
@@ -1912,107 +2050,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-
-.staff .owl-dots {
-  margin-top: 5px;
-  margin-left:600px;
-}
-
-.staff .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd !important;
-}
-
-.staff .owl-dot.active {
-  background-color: #15c9f7 !important;
-}
-
-
-.staff .staff-carousel{
-  margin: 0 0px 0 130px;
-}
-.staff .owl-item .member {
-  text-align: center;
-  margin-bottom: 80px;
-  position: relative;
-  width:70%;
-}
-
-.staff .owl-item .member .pic {
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.staff .owl-item .member img {
-  transition: all ease-in-out 0.4s;
-}
-
-.staff .owl-item .member:hover img {
-  transform: scale(1.1);
-}
-
-.staff .owl-item .member .member-info {
-  position: absolute;
-  bottom: -80px;
-  left: 0px;
-  right: 0px;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 15px 0;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.staff .owl-item .member h4 {
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #01036f;
-  position: relative;
-  padding-bottom: 10px;
-}
-
-.staff .owl-item .member h4::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #0d12fc;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-
-.staff .owl-item .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-  color: #01036f;
-}
-
-.staff .owl-item .member .social {
-  margin-top: 10px;
-}
-
-.staff .owl-item .member .social a {
-  transition: color 0.3s;
-  color: #01036f;
-}
-
-.staff .owl-item .member .social a:hover {
-  color: #02b7ff;
-}
-
-.staff .owl-item .member .social i {
-  font-size: 16px;
-  margin: 0 2px;
-}
 
 /*--------------------------------------------------------------
 # Pricing
