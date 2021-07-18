@@ -8,7 +8,191 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.title-form-donate{
+  margin-left:40px;
+  margin-right: 10px;
+  background-color: #00aeff;
+  padding: 5px 5px 5px 5px;
+}
+.top-content{
+  background-color: #00aeff;
+  /* margin:0px 0px 0px 20px; */
+  display:grid;
+  color:white;
+  border:solid #00aeff;
+  border-radius: 5px;
+}
+.contacttt{
+  margin-top: 30px;
+  background-color: #00aeff;
+  color:white;
+  border:solid #00aeff;
+  border-radius: 5px;
+}
+.sumaryy{
+  margin-top: 30px;
+  background-color: #00aeff;
+  color:white;
+  border:solid #00aeff;
+  border-radius: 5px;
+}
+.right-form{
+  background-color: #00aeff;
+  /* margin:10px 0px 0px 0px; */
+  display:grid;
+  color:white;
+  border:solid #00aeff;
+  border-radius: 5px;
+}
+#donate-buttons li {
 
+  color: #f1f1f1;
+  display: inline-block;
+}
+
+/* .month, .amount{
+border: 10px solid;
+border-width: 1px;
+border-color:  #15c9f7;
+margin-top: 10px;
+background-color: white;
+padding: 8px;
+} */
+
+
+body {
+font-family: "Open Sans", sans-serif;
+color: #444444;
+}
+/* .otherAmount{
+  margin-top: 15px;
+} */
+/* .donation-now{
+  margin: 60px 20px 0px 0px;
+  border: solid 4px black;
+  background-color: snow;
+
+} */
+.donnnn{
+  margin-top: 50px;
+}
+.sumary{
+  /* margin-top: 100px; */
+  margin-bottom: 20px;
+}
+a:hover {
+color: #34e5a6;
+text-decoration: none;
+}
+
+#donation .tabs .nav-tabs {
+  border: none;
+}
+
+#donation .tabs .nav-link {
+  border: 2px solid  #15c9f7;
+  /* padding: 15px;
+  border-radius: 20px 20px 20px 20px; */
+  /* transition: 0.3s; */
+  color: #111111;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+/* .click-chose{
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0;
+  transition: 0.3s;
+  color: #111111;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.btn-main{
+width: 50px;
+/* background: black; */
+}
+
+
+#donation .tabs .nav-link i {
+
+  font-size: 48px;
+  color:rgb(255, 166, 0);
+}
+
+#donation .tabs .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+#donation .tabs .nav-link:hover {
+  color: #15c9f7;
+
+}
+
+#donation .tabs .nav-link.active {
+  background: orange;
+  color: #fff;
+  border-color: #15c9f7;
+}
+
+@media (max-width: 768px) {
+  h1{
+    font-size: 36px;
+  }
+  #donation .click-chose .tabs .nav-link i {
+    padding: 0;
+    line-height: 1;
+    font-size: 36px;
+  }
+
+}
+@media (max-width: 575px) {
+  h1{
+    font-size: 24px;
+  }
+  #donation .click-chose .tabs .nav-link {
+    padding: 15px;
+  }
+  #donation .click-chose .tabs .nav-link i {
+    font-size: 24px;
+  }
+
+}
+
+/* #donation .tabs .tab-content {
+  margin-top: 30px;
+} */
+
+#donation .tabs .tab-pane h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+#donation .tabs .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+#donation .tabs .tab-pane ul li {
+  padding-bottom: 10px;
+}
+
+#donation .tabs .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #15c9f7;
+}
+
+#donation .tabs .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
+/* end css donation */
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -118,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-  
+
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
   -webkit-scroll-snap-points-x: repeat(300px);
@@ -718,7 +902,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav a {
   display: block;
-  position: relative; 
+  position: relative;
   color: white;
   padding: 10px 0 10px 25px;
   transition: 0.3s;
@@ -2544,7 +2728,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  
+
 }
 
 #footer .footer-top .footer-info p {
