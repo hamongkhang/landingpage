@@ -25,8 +25,11 @@
  
  <body>
       <div>
-         <h2>{{ $data['type'] }}</h2>
-         <p>Cảm ơn thầy {{ $data['thanks'] }} đã chấm bài cho nhóm em</p>
+         <h2>Title: {{ $data['title'] }}</h2>
+         <p>User Name:  {{ $data['name'] }}</p>
+         <p>Email: {{ $data['email'] }}</p>
+         <p>Subject: {{ $data['subject'] }}</p>
+         <p>Content: {{ $data['message'] }}</p>
       </div>
  </body>
 

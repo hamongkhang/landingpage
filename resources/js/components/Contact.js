@@ -79,12 +79,8 @@ class Contact extends Component {
     this.setState({message: e.target.value})
   }
 
-  onSubmit(e) {
+  onSubmit() {
     const contact = new FormData(); 
-    contact.append( 
-      "image",
-     this.state.image
-    ); 
     contact.append( 
       "name",
      this.state.name
@@ -92,6 +88,14 @@ class Contact extends Component {
     contact.append( 
       "email",
      this.state.email
+    ); 
+    contact.append( 
+      "subject",
+     this.state.subject 
+    ); 
+    contact.append( 
+      "message",
+     this.state.message
     ); 
     axios.post('http://localhost:8000/api/contacts', contact)
       .then(res => console.log(res.data));
@@ -105,7 +109,7 @@ class Contact extends Component {
   'success'
 )
 
-    this.setState({name: '', email: '',image:''})
+    this.setState({name: '', email: '',subject: '',message: ''})
   }
 
 
@@ -149,7 +153,7 @@ render() {
               <iframe className="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7668.278107353775!2d108.24186711481488!3d16.058272384261798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142177f2ced6d8b%3A0xe282c779264f7088!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIE5naOG7gSDEkMOgIE7hurVuZw!5e0!3m2!1svi!2sbg!4v1624758885261!5m2!1svi!2sbg" frameBorder={0} style={{border: 0, width: '100%', height: '384px'}} allowFullScreen />
             </div>
             <div className="col-lg-6">
-              <form >
+              <form onSubmit={this.onSubmit} >
                 <div className="form-row">
                   <div className="col-md-6 form-group">
                     <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" value={this.state.name} onChange={this.onChangeContactName} data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -173,7 +177,7 @@ render() {
                   <div className="error-message" />
                   <div className="sent-message">Your message has been sent. Thank you!</div>
                 </div> */}
-                <div className="text-center"><button type="submit" onClick={this.formContact}>Send Message</button></div>
+                <div className="text-center"><button type="submit">Send Message</button></div>
               </form>
             </div>
           </div>
