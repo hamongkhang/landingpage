@@ -24,10 +24,12 @@
  </head>
  
  <body>
-      <div>
-         <h2>{{ $data['type'] }}</h2>
-         <p>Cảm ơn thầy {{ $data['thanks'] }} đã chấm bài cho nhóm em</p>
-      </div>
+    <div>
+        Name  : {{ $data1["name"] }}<br>
+        Email : {{ $data1["email"] }}<br>
+        Subject : {{ $data1["subject"] }}<br>
+        Message : {{$data1["message"] }}
+    </div>
  </body>
 
 </html>
