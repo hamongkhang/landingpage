@@ -5,9 +5,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -589,7 +586,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav a {
   display: block;
-  position: relative; 
+  position: relative;
   color: white;
   padding: 10px 0 10px 25px;
   transition: 0.3s;
@@ -2507,7 +2504,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  
+
 }
 
 #footer .footer-top .footer-info p {

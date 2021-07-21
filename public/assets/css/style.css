@@ -8,10 +8,203 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+#otherAmonut{
+   border: solid 1px white;
+}
+#otherAmonut2{
+  border: solid 1px white;
+}
+.amount .nav {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.ntthang{
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
 
 body {
+font-family: "Open Sans", sans-serif;
+color: #444444;
+}
+.donnnn{
+  margin-top: 50px;
+}
+
+.sumary{
+  /* margin-top: 100px; */
+  margin-bottom: 15px;
+}
+
+#amount{
+  /* border:solid green; */
+  margin:10px 0 0 0;
+}
+#donation .tabs .nav-tabs {
+  border: none;
+}
+
+#donation .tabs .nav-link {
+  border: 2px solid  #15c9f7;
+  color: #111111;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#donationcss #donation{
+  margin:80px 20px 20px 20px;
+}
+#donationcss #donation #form1{
+  background-color: #00aeff;
+  color:black;
+  border-radius: 5px;
+  border:1px #00aeff dashed;
+}
+#donationcss #donation #form2{
+  background-color: #00aeff;
+  color:black;
+  /* border: tomato 1px solid; */
+  border-radius: 5px;
+  margin-top:30px;
+  border: solid  #00aeff 1px;
+}
+
+#donationcss #donation #form3{
+  background-color: #00aeff;
+  color: white;
+  border-radius: 5px;
+  margin-top:30px;
+  border: solid #00aeff 1px;
+}
+#donationcss #donation #form1 #form1_child{
+  margin: 10px 10px 10px 10px;
+  color: white;
+
+}
+#donationcss #donation #form2 #form2_child{
+  margin: 10px 10px 10px 10px;
+  border: solid  #00aeff 1px;
+  color: white;
+}
+#donationcss #donation #form3 #form3_child{
+  margin: 10px 10px 10px 10px;
+  border: solid  #00aeff 1px;
+  color: white;
+}
+#item .nav-link.active{
+  background:rgb(255, 166, 0);
+  height:50px;
+  border-radius:5px;
+  color:white;
+}
+#item2 .nav-link.active{
+  background:rgb(255, 166, 0);
+  height:50px;
+  border-radius:5px;
+  color:white;
+}
+.ann{
+  border: solid 1px black;
+  padding-right: 100px;
+  float: left;
+}
+
+#text{
+  background:white;
+  height:50px;
+  border-radius:5px;
+  color:black;
+}
+#text:hover{
+  background:rgb(255, 166, 0);
+  height:50px;
+  border-radius:5px;
+  color:white;
+}
+#donation .tabs{
+  border:solid black;
+}
+#donation .tabs .nav-link i {
+
+  font-size: 48px;
+  color:rgb(255, 166, 0);
+}
+
+#donation .tabs .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+#donation .tabs .nav-link:hover {
+  color: #15c9f7;
+
+}
+
+#donation .tabs .nav-link.active {
+  background: orange;
+  color: #fff;
+  border-color: #15c9f7;
+}
+
+@media (max-width: 768px) {
+  h1{
+    font-size: 36px;
+  }
+  #donation .click-chose .tabs .nav-link i {
+    padding: 0;
+    line-height: 1;
+    font-size: 36px;
+  }
+
+}
+@media (max-width: 575px) {
+  h1{
+    font-size: 24px;
+  }
+  #donation .click-chose .tabs .nav-link {
+    padding: 15px;
+  }
+  #donation .click-chose .tabs .nav-link i {
+    font-size: 24px;
+  }
+
+} */
+
+
+#donation .tabs .tab-pane h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+#donation .tabs .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+#donation .tabs .tab-pane ul li {
+  padding-bottom: 10px;
+}
+
+#donation .tabs .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #15c9f7;
+}
+/*
+#donation .tabs .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------- end css donation----------------------------------------- */
+body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #201f1f;
 }
 
 a {
@@ -118,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-  
+
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
   -webkit-scroll-snap-points-x: repeat(300px);
@@ -718,7 +911,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav a {
   display: block;
-  position: relative; 
+  position: relative;
   color: white;
   padding: 10px 0 10px 25px;
   transition: 0.3s;
@@ -1144,9 +1337,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 10px;
 }
 
-.details .tabs .tab-pane ul i {
+.details .tabs .tab-pane ul li {
   font-size: 20px;
-  padding-right: 4px;
+  /* padding-right: 4px; */
   color: #15c9f7;
 }
 
@@ -2544,7 +2737,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  
+
 }
 
 #footer .footer-top .footer-info p {
