@@ -8,115 +8,109 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-.title-form-donate{
-  margin-left:40px;
-  margin-right: 10px;
-  background-color: #00aeff;
-  padding: 5px 5px 5px 5px;
-}
-.top-content{
-  background-color: #00aeff;
-  /* margin:0px 0px 0px 20px; */
-  display:grid;
-  color:white;
-  border:solid #00aeff;
-  border-radius: 5px;
-}
-.contacttt{
-  margin-top: 30px;
-  background-color: #00aeff;
-  color:white;
-  border:solid #00aeff;
-  border-radius: 5px;
-}
-.sumaryy{
-  margin-top: 30px;
-  background-color: #00aeff;
-  color:white;
-  border:solid #00aeff;
-  border-radius: 5px;
-}
-.right-form{
-  background-color: #00aeff;
-  /* margin:10px 0px 0px 0px; */
-  display:grid;
-  color:white;
-  border:solid #00aeff;
-  border-radius: 5px;
-}
-#donate-buttons li {
 
-  color: #f1f1f1;
-  display: inline-block;
+.amount .nav {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
+.ntthang{
+  padding-top: 5px;
+  padding-bottom: 5px;
 
-/* .month, .amount{
-border: 10px solid;
-border-width: 1px;
-border-color:  #15c9f7;
-margin-top: 10px;
-background-color: white;
-padding: 8px;
-} */
-
+}
 
 body {
 font-family: "Open Sans", sans-serif;
 color: #444444;
 }
-/* .otherAmount{
-  margin-top: 15px;
-} */
-/* .donation-now{
-  margin: 60px 20px 0px 0px;
-  border: solid 4px black;
-  background-color: snow;
-
-} */
 .donnnn{
   margin-top: 50px;
 }
 .sumary{
   /* margin-top: 100px; */
-  margin-bottom: 20px;
-}
-a:hover {
-color: #34e5a6;
-text-decoration: none;
+  margin-bottom: 15px;
 }
 
+#amount{
+  /* border:solid green; */
+  margin:10px 0 0 0;
+}
 #donation .tabs .nav-tabs {
   border: none;
 }
 
 #donation .tabs .nav-link {
   border: 2px solid  #15c9f7;
-  /* padding: 15px;
-  border-radius: 20px 20px 20px 20px; */
-  /* transition: 0.3s; */
   color: #111111;
   background-color: rgb(255, 255, 255);
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
-}
-/* .click-chose{
-  text-decoration: none;
-  font-size: 18px;
-  margin: 0;
-  transition: 0.3s;
-  color: #111111;
-  border-radius: 0;
-  display: flex;
   align-items: center;
   justify-content: center;
-} */
-.btn-main{
-width: 50px;
-/* background: black; */
 }
 
 
+#donationcss #donation{
+  margin:80px 20px 20px 20px;
+}
+#donationcss #donation #form1{
+  background-color: #00aeff;
+  color:black;
+  border-radius: 5px;
+  border:1px #00aeff dashed;
+}
+#donationcss #donation #form2{
+  background-color: #00aeff;
+  color:black;
+  /* border: tomato 1px solid; */
+  border-radius: 5px;
+  margin-top:30px;
+  border: solid  #00aeff 1px;
+}
+
+#donationcss #donation #form3{
+  background-color: #00aeff;
+  color: white;
+  border-radius: 5px;
+  margin-top:30px;
+  border: solid #00aeff 1px;
+}
+#donationcss #donation #form1 #form1_child{
+  margin: 10px 10px 10px 10px;
+  color: white;
+
+}
+#donationcss #donation #form2 #form2_child{
+  margin: 10px 10px 10px 10px;
+  border: solid  #00aeff 1px;
+  color: white;
+}
+#donationcss #donation #form3 #form3_child{
+  margin: 10px 10px 10px 10px;
+  border: solid  #00aeff 1px;
+  color: white;
+}
+#item .nav-link.active{
+  background:rgb(255, 166, 0);
+  height:50px;
+  border-radius:5px;
+  color:white;
+}
+#text{
+  background:white;
+  height:50px;
+  border-radius:5px;
+  color:black;
+}
+#text:hover{
+  background:rgb(255, 166, 0);
+  height:50px;
+  border-radius:5px;
+  color:white;
+}
+#donation .tabs{
+  border:solid black;
+}
 #donation .tabs .nav-link i {
 
   font-size: 48px;
@@ -162,11 +156,8 @@ width: 50px;
     font-size: 24px;
   }
 
-}
-
-/* #donation .tabs .tab-content {
-  margin-top: 30px;
 } */
+
 
 #donation .tabs .tab-pane h3 {
   font-weight: 600;
@@ -187,15 +178,15 @@ width: 50px;
   padding-right: 4px;
   color: #15c9f7;
 }
-
+/*
 #donation .tabs .tab-pane p:last-child {
   margin-bottom: 0;
 }
 
-/* end css donation */
+/*--------------------------------- end css donation----------------------------------------- */
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #201f1f;
 }
 
 a {
@@ -1328,9 +1319,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 10px;
 }
 
-.details .tabs .tab-pane ul i {
+.details .tabs .tab-pane ul li {
   font-size: 20px;
-  padding-right: 4px;
+  /* padding-right: 4px; */
   color: #15c9f7;
 }
 
