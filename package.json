@@ -1,6 +1,8 @@
 {
+  "name": "mentor-pro",
   "private": true,
   "scripts": {
+    "heroku-postbuild": "npm run production",
     "dev": "npm run development",
     "postinstall": "npm run prod",
     "development": "mix",
