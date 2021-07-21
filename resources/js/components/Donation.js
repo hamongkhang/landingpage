@@ -19,16 +19,18 @@ const Donation = () => {
                 {/* form 1 là form choose amount money donate */}
                 <div id="form1">
                   <div id="form1_child">
-                    <h6 className="text-center"><b>MY DONATION</b></h6>
+                    <h5 className="text-center"><b>TÀI TRỢ CỦA TÔI</b></h5>
                     <ul className="nav  row d-flex font-italic" id="item">
-                      <li className="nav-item col-5  " >
+                      <li className="nav-item col-6  " >
                         <a className="nav-link active show" data-toggle="tab" href="#tab-amount" id="text">
-                          <center>Donation amount</center>
+                          <p className="ntthang">  <center>hỗ trợ 1 lần</center></p>
+
                         </a>
                       </li>
-                      <li className="nav-item col-7 ">
+                      <li className="nav-item col-6 ">
                         <a className="nav-link" data-toggle="tab" href="#tab-month" id="text">
-                          <center>Monthly donation amount</center>
+                          <span className="ntthang">  <center>hỗ trợ hằng tháng </center></span>
+
                         </a>
                       </li>
                     </ul>
@@ -39,33 +41,33 @@ const Donation = () => {
                           <center>
                             <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
                               <div className="amount" id="amount">
-                                <h6 className="text-center font-italic ">Donation amount</h6>
+                                <h6 className="text-center font-italic ">số tiền tài trợ:</h6>
 
                                 <ul className="nav row">
                                   <li className="nav-item col-2">
                                     <a className="click-chose" data-toggle="tab" href="#money1">
-                                      <input className="btn btn-secondary" type="button" value="$60" />
+                                      <input className="btn btn-light" type="button" value=" 15 € " />
                                     </a>
                                   </li>
                                   <li className="nav-item col-2">
                                     <a className="click-chose" data-toggle="tab" href="#money2">
-                                      <input className="btn btn-secondary" type="button" value="$70" />
+                                      <input className="btn btn-light" type="button" value="45 € " />
                                     </a>
                                   </li>
 
                                   <li className="nav-item col-2">
                                     <a className="click-chose" data-toggle="tab" href="#money3">
-                                      <input className="btn btn-secondary" type="button" value="$80" />
+                                      <input className="btn btn-light" type="button" value="75 € " />
                                     </a>
                                   </li>
                                   <li className="nav-item col-2">
                                     <a className="click-chose" data-toggle="tab" href="#money4">
-                                      <input className="btn btn-secondary" type="button" value="$90" />
+                                      <input className="btn btn-light" type="button" value="150 €" />
                                     </a>
                                   </li>
                                   <li className="nav-item col-2">
                                     <a className="click-chose" data-toggle="tab" href="#money5">
-                                      <input className="btn btn-secondary" type="button" value="$50" />
+                                      <input className="btn btn-light bbb" type="button" value="400 €" />
                                     </a>
                                   </li>
                                 </ul>
@@ -75,7 +77,7 @@ const Donation = () => {
                                     <div className="row">
                                       <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
                                         <p className="font-italic">
-                                          <p >1cover college fees for one student in Vietnam for one year</p>
+                                          <p>giúp trang trải chi phí y tế của một sinh viên trong một năm ở Việt Nam</p>
                                         </p>
                                       </div>
                                     </div>
@@ -84,7 +86,7 @@ const Donation = () => {
                                     <div className="row">
                                       <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0" >
                                         <p className="font-italic">
-                                          <p >2cover the food for a student for a month in the Vietnam</p>
+                                          <p >là chi phí trang trải cho 38 giờ học IT của một sinh viên</p>
                                         </p>
                                       </div>
                                     </div>
@@ -93,7 +95,7 @@ const Donation = () => {
                                     <div className="row">
                                       <div className="col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0">
                                         <p className="font-italic">
-                                          <p >3cover the food for a student for a month in the Vietnam</p>
+                                          <p >là chi phí hỗ trợ sinh hoạt cho 1 sinh viên trong 2 tháng rồi</p>
                                         </p>
                                       </div>
                                     </div>
@@ -102,7 +104,7 @@ const Donation = () => {
                                     <div className="row">
                                       <div className="col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0">
                                         <p className="font-italic">
-                                          <p >4cover English classes for 6 students for one month in Cambodia</p>
+                                          <p >bao gồm khóa học tiếng Anh của một sinh viên trong một năm ở Campuchia</p>
                                         </p>
                                       </div>
                                     </div>
@@ -111,16 +113,16 @@ const Donation = () => {
                                     <div className="row">
                                       <div className="col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0">
                                         <p className="font-italic">
-                                          <p >5cover English classes for 6 students for one month in Cambodia</p>
+                                          <p >trang trải chi phí máy tính để trang bị phòng máy</p>
                                         </p>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
 
-                                <div className="otherAmount font-italic">  other amount:
+                                <div className="otherAmount font-italic">  số tiền khác:
                                           <a className="click-chose" data-toggle="tab" href="#money">
-                                    <input type="number" className="form-control form-light" id="otherAmonut"></input>
+                                    <center> <input type="number" className="form-control-sm form-light " id="otherAmonut"></input></center>
                                   </a>
                                 </div>
 
@@ -128,7 +130,7 @@ const Donation = () => {
                                   <div className="tab-pane" id="money">
                                     <div className="row">
                                       <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
-                                        <p className="font-italic">Your donation will only cost you 0.00 € after the tax deduction.</p>
+                                        <p className="font-italic">số tiền tài trợ của bạn sẽ góp phần hỗ trợ phát triển của các bạn sinh viên PNV</p>
                                       </div>
                                     </div>
                                   </div>
@@ -145,39 +147,35 @@ const Donation = () => {
                           <center>
                             <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
                               <div className="amount" id="amount">
-                                <h6 className="text-center font-italic">Monthly donation amount</h6>
+                                <h6 className="text-center font-italic">hỗ trợ hằng tháng với số tiền: </h6>
 
-                                <ul className="nav  row">
+                                <ul className="nav row">
                                   <li className="nav-item col-2">
                                     <a className="click-chose" data-toggle="tab" href="#monthly1">
-                                      <input type="button" className="btn btn-secondary" value="$60" />
+                                      <input className="btn btn-light " type="button" value=" 15 € " />
                                     </a>
                                   </li>
                                   <li className="nav-item col-2">
                                     <a className="click-chose" data-toggle="tab" href="#monthly1">
-                                      <input type="button" className="btn btn-secondary" value="$60" />
+                                      <input className="btn btn-light" type="button" value="25 € " />
                                     </a>
                                   </li>
-                                  <li className="nav-item col-2">
-                                    <a className="click-chose" data-toggle="tab" href="#monthly2">
-                                      <input type="button" className="btn btn-secondary" value="$70" />
-                                    </a>
-                                  </li>
-                                  <li className="nav-item col-2">
 
+                                  <li className="nav-item col-2">
                                     <a className="click-chose" data-toggle="tab" href="#monthly3">
-                                      <input type="button" className="btn btn-secondary" value="$80" />
+                                      <input className="btn btn-light" type="button" value="50 € " />
                                     </a>
-
                                   </li>
                                   <li className="nav-item col-2">
-
-                                    <a className="click-chose" data-toggle="tab" href="#monthly4">
-                                      <input className="btn btn-secondary" type="button" value="$90" />
+                                    <a className="click-chose" data-toggle="tab" href="#monthly3">
+                                      <input className="btn btn-light" type="button" value="75 €  " />
                                     </a>
-
                                   </li>
-
+                                  {/* <li className="nav-item col-2">
+                                    <a className="click-chose" data-toggle="tab" href="#monthly3">
+                                      <input className="btn btn-secondary bbb" type="button" value="400 €" />
+                                    </a>
+                                  </li> */}
                                 </ul>
 
                                 <div className="tab-content">
@@ -185,7 +183,7 @@ const Donation = () => {
                                     <div className="row">
                                       <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
                                         <p className="font-italic">
-                                          <p >1cover college fees for one student in Vietnam for one year</p>
+                                          <p >trang trải học phí cho một sinh viên ở Việt Nam trong một năm</p>
                                         </p>
                                       </div>
                                     </div>
@@ -194,7 +192,7 @@ const Donation = () => {
                                     <div className="row">
                                       <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0" >
                                         <p className="font-italic">
-                                          <p >2cover the food for a student for a month in the Vietnam</p>
+                                          <p >bao ăn cho một sinh viên trong một tháng ở Philippines</p>
                                         </p>
                                       </div>
                                     </div>
@@ -203,7 +201,7 @@ const Donation = () => {
                                     <div className="row">
                                       <div className="col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0">
                                         <p className="font-italic">
-                                          <p >3cover the food for a student for a month in the Vietnam</p>
+                                          <p >trang trải chi phí ăn ở cho 16 sinh viên trong một tháng ở Campuchia</p>
                                         </p>
                                       </div>
                                     </div>
@@ -212,7 +210,7 @@ const Donation = () => {
                                     <div className="row">
                                       <div className="col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0">
                                         <p className="font-italic">
-                                          <p >4cover English classes for 6 students for one month in Cambodia</p>
+                                          <p >bao gồm các lớp học tiếng Anh cho 6 học sinh trong một tháng ở Campuchia</p>
                                         </p>
                                       </div>
                                     </div>
@@ -220,18 +218,17 @@ const Donation = () => {
 
                                 </div>
 
-                                <div className="otherAmount font-italic"> <span>other amount:
-                                  </span>
-                                  <a className="click-chose" data-toggle="tab" href="#monthly">
-                                    <input type="number" className="form-control form-light" id="otherAmonut"></input>
+
+                                <div className="otherAmount font-italic">  số tiền khác:
+                                          <a className="click-chose" data-toggle="tab" href="#monthly">
+                                    <center> <input type="number" className="form-control-sm form-light " id="otherAmonut2"></input></center>
                                   </a>
                                 </div>
-
                                 <div className="tab-content">
                                   <div className="tab-pane" id="monthly">
                                     <div className="row">
                                       <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
-                                        <p className="font-italic">Your donation will only cost you 0.00 € after the tax deduction.</p>
+                                        <p className="font-italic">số tiền tài trợ của bạn sẽ góp phần hỗ trợ phát triển của các bạn sinh viên PNV</p>
                                       </div>
                                     </div>
                                   </div>
@@ -254,31 +251,13 @@ const Donation = () => {
 
                 {/* form 2 là form sumary */}
                 <div id="form2">
-                  <div id="form2_child">
-                    <h6 className="text-center sumary"><b>MY SUMMARY</b></h6>
+                  <div id="form2_child" className="font-italic">
+                    <h6 className="text-center sumary"><b>TỔNG HỢP</b></h6>
                     <div className="table-responsive">
-                      <table className="font-italic">
-                        <thead className="">
-                          <tr>
-                            <th>Selection</th>
-                            <th>Donation</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Donation</td>
-                            <td>$</td>
-                          </tr>
-                          <tr>
-                            <td>Your contribution to the function of HelloAsso.</td>
-                            <td>$</td>
-                          </tr>
-                          <tr>
-                            <td><b>Total</b></td>
-                            <td>$</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                      <p>Bạn có thể tạo ra sự khác biệt và thay đổi cuộc sống của những
+                        thanh niên có hoàn cảnh khó khăn bằng cách hỗ trợ tổ chức Passerelles numériques.</p>
+                      <p>sự hỗ trợ của các bạn sẽ giúp sinh viên PNV "nuôi hi vọng" và thực hiện hóa "ước mơ" của minh.</p>
+                      <p> chúng tôi rất trân trọng mọi sự giúp đỡ dù là 10,000 hay 50,000 </p>
                     </div>
                   </div>
                 </div>
@@ -286,14 +265,13 @@ const Donation = () => {
                 {/* form 3 là form contact */}
                 <div id="form3">
                   <div id="form3_child">
-                    <h6 className="text-center"><b>CONTACT US</b></h6>
+                    <h5 className="text-center"><b>LIÊN HỆ VỚI CHÚNG TÔI</b></h5>
                     <p className="font-italic text-center">
-                      31, rue de l'Ourcq
-                                                  75019 Paris <br />
-                                                  +33 1 42 00 84 89 <br />
-                                                  julie.laporte@passerellesnumeriques.org <br />
+                      31, rue de l'Ourcq 75019 Paris <br />
+                        +33 1 42 00 84 89 <br />
+                       julie.laporte@passerellesnumeriques.org <br />
                       <span >https://www.passerellesnumeriques.org/en/ <br />
-                                                  https://www.facebook.com/passerelles.numeriques/</span>
+                             https://www.facebook.com/passerelles.numeriques/</span>
                     </p>
                   </div>
                 </div>
@@ -304,20 +282,20 @@ const Donation = () => {
                 {/* form information */}
                 <div id="form1">
                   <div id="form1_child">
-                    <h6 class="text-center"><b>MY INFORMATION</b></h6>
+                    <h5 class="text-center"><b>THÔNG TIN CỦA BẠN</b></h5>
 
 
 
-                    <ul className="nav row d-flex font-italic" id="">
+                    <ul className="nav row d-flex font-italic" id="item2">
                       <li className="nav-item col-6">
                         <a className="nav-link active show " data-toggle="tab" href="#tab-1" id="text">
 
-                          <p className="ntthang">Private Individual</p>
+                          <p className="ntthang"><center>Cá nhân </center></p>
                         </a>
                       </li>
                       <li className="nav-item col-6">
                         <a className="nav-link" data-toggle="tab" href="#tab-2" id="text">
-                          <p className="ntthang">  <center>Organization </center></p>
+                          <p className="ntthang">  <center>Tổ chức</center></p>
                         </a>
                       </li>
                     </ul>
@@ -328,49 +306,47 @@ const Donation = () => {
                           <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
                             <p className="font-italic">
                               <form id="toChuc" >
-                                <p>Organization : You can deduct 60% of your donation.</p>
-                                <p>Entreprise : l’ensemble des versements à Passerelles Numériques permet de bénéficier d’une réduction d’impôt sur les sociétés de 60% du montant de ces versements, plafonnée à 20000€ ou 5 ‰ (5 pour mille) du chiffre d'affaires annuel hors taxe de l’entreprise. En cas de dépassement de plafond, l'excédent est reportable sur les 5 exercices suivants.</p>
+
                                 <div className="form-group">
                                   <span for="fullname">tên công ti hoặc tổ chức</span>
                                   <input type="text" className="form-control form-light organization" id="" ></input>
                                 </div>
-                                <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="lastName">Last name* </span>
+                                <div className="form-group" style={{ width: '50%', float: 'left' }} >
+                                  <span for="lastName">tên* </span>
                                   <input type="text" className="form-control form-light lastName" id="" ></input>
                                 </div>
                                 <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="firstName">First name* </span>
+                                  <span for="firstName">họ* </span>
                                   <input type="text" className="form-control form-light firstName" id="" ></input>
                                 </div>
                                 <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="emailform">Your email address* </span>
+                                  <span for="emailform">địa chỉ email* </span>
                                   <input type="email" className="form-control form-light emailform" id=" " ></input>
                                 </div>
                                 <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="phoneNum">Your phone number* </span>
+                                  <span for="phoneNum">số điện thoại* </span>
                                   <input type="number" className="form-control form-light phoneNum" id="" ></input>
                                 </div>
-                                <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="birthday">Date of birthday* </span>
+                                <div className="form-group" >
+                                  <span for="birthday">ngày sinh* </span>
                                   <input type="date" className="form-control form-light birthday" id="" ></input>
                                 </div>
-                                <div className="form-group" style={{ width: '50%', float: 'left' }}>
+                                <div className="form-group" >
                                   <span for="zipCode">ZIP code* </span>
                                   <input type="number" className="form-control form-light zipCode" id="" ></input>
                                 </div>
                                 <div className="form-group">
-                                  <span for="address">Street address* </span>
+                                  <span for="address">địa chỉ (đường)* </span>
                                   <input type="text" className="form-control form-light address" id="" ></input>
                                 </div>
-                                <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="city">City* </span>
+                                <div className="form-group" >
+                                  <span for="city">thành phố (huyện)* </span>
                                   <input type="text" className="form-control form-light city " id="" ></input>
                                 </div>
-                                <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="country">Country* </span>
+                                <div className="form-group" >
+                                  <span for="country">Nước* </span>
                                   <input type="text" className="form-control form-light country" id=" " ></input>
                                 </div>
-
                               </form>
 
                             </p>
@@ -382,44 +358,44 @@ const Donation = () => {
                           <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0" >
                             <p className="font-italic">
                               <form id="caNhan" >
-                                <p>Private individual : You can deduct<b> 66% </b>of your donation in the limit of <b>20%</b> of your taxable income</p>
-                                <p>Particulier : Vous pouvez bénéficier d'une réduction d'impôt égale à 66% du montant de votre don, dans la limite de 20% de votre revenu imposable.</p>
-                                <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="lastName">Last name* </span>
+
+                                <div className="form-group" style={{ width: '50%', float: 'left' }} >
+                                  <span for="lastName">tên* </span>
                                   <input type="text" className="form-control form-light lastName" id="" ></input>
                                 </div>
                                 <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="firstName">First name* </span>
+                                  <span for="firstName">họ* </span>
                                   <input type="text" className="form-control form-light firstName" id="" ></input>
                                 </div>
                                 <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="emailform">Your email address* </span>
+                                  <span for="emailform">địa chỉ email* </span>
                                   <input type="email" className="form-control form-light emailform" id=" " ></input>
                                 </div>
                                 <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="phoneNum">Your phone number* </span>
+                                  <span for="phoneNum">số điện thoại* </span>
                                   <input type="number" className="form-control form-light phoneNum" id="" ></input>
                                 </div>
-                                <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="birthday">Date of birthday* </span>
+                                <div className="form-group" >
+                                  <span for="birthday">ngày sinh* </span>
                                   <input type="date" className="form-control form-light birthday" id="" ></input>
                                 </div>
-                                <div className="form-group" style={{ width: '50%', float: 'left' }}>
+                                <div className="form-group" >
                                   <span for="zipCode">ZIP code* </span>
                                   <input type="number" className="form-control form-light zipCode" id="" ></input>
                                 </div>
                                 <div className="form-group">
-                                  <span for="address">Street address* </span>
+                                  <span for="address">địa chỉ (đường)* </span>
                                   <input type="text" className="form-control form-light address" id="" ></input>
                                 </div>
-                                <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="city">City* </span>
+                                <div className="form-group" >
+                                  <span for="city">thành phố (huyện)* </span>
                                   <input type="text" className="form-control form-light city " id="" ></input>
                                 </div>
-                                <div className="form-group" style={{ width: '50%', float: 'left' }}>
-                                  <span for="country">Country* </span>
+                                <div className="form-group" >
+                                  <span for="country">Nước* </span>
                                   <input type="text" className="form-control form-light country" id=" " ></input>
                                 </div>
+
                               </form>
 
                             </p>
@@ -436,7 +412,7 @@ const Donation = () => {
 
               <center>
                 <div className="nav-item">
-                  <button type="submit" className="btn btn-secondary btn-lg btn-block donnnn" id="send">Donation</button>
+                  <button type="submit" className="btn btn-secondary btn-lg btn-block donnnn" id="send">Tài trợ</button>
                 </div>
               </center>
             </div>
