@@ -29,11 +29,11 @@ class MailNotify extends Mailable
      */
     public function build()
     {
-        $file=public_path('attachment/khang_hang.pdf');
-        return $this->from('hangqt3621@gmail.com')
-           ->view('mails.mail-notify')
-           ->subject('Notification email')
-           ->attach($file);
+        $data = $this->data;
+        $email = $data['email'];
+        return $this->from($email)
+        ->view('mails.mail-notify')
+        ->subject('email');
    }
  
 

@@ -42,6 +42,7 @@ Route::get('/student', 'StudentController@index')->name('student.all');
 Route::get('/staff', 'StaffController@index')->name('staff.all');
 Route::get('/status', 'StatusController@index')->name('status.all');
 
+Route::post('/contacts','ContactController@mail');
 
 
 
