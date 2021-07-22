@@ -30,7 +30,7 @@ class Count extends Component {
       <section id="counts" className="counts">
     <div className="container">
     <div className="section-title"  >
-        <h2>Mục chính</h2>
+        <h2>PNV</h2>
         <p>PN Việt Nam và 10 năm tác động bền vững cho xã hội Việt Nam:</p>
       </div>
       <div className="row"  >

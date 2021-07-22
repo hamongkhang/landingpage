@@ -7,12 +7,12 @@ const Face=()=>{
     <div className="row">
       <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
         <div>
-          <h1>We are students of <span>PN Viet Nam</span></h1>
-          <h2>We are Blue Team of PNV</h2>
+          <h1>Chúng tôi là <span>PN Việt Nam</span></h1>
+          <h2>PNV - nơi mở ra cánh cổng tương lai cho sinh viên nghèo Việt Nam </h2>
           <div className="text-center text-lg-left">
-            <a data-toggle="collapse" href="#donation2" className="collapsed">Donate Now</a>
+            <a data-toggle="collapse" href="#donation2" className="collapsed">Ủng hộ ngay</a>
             
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" >Watch Video</a>
+            <a href="https://www.facebook.com/passerelles.numeriques/videos/712653589394513" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" >Xem video</a>
           </div>
         </div>
       </div>
@@ -38,17 +38,18 @@ const Face=()=>{
       </use></g>
   </svg>
 </div>
-<div id="hero" style={{backgroundImage: 'url("assets/img/DSC00244.jpg")'}} >
+<div id="hero" style={{backgroundImage: 'url("assets/img/163909238_3796047087141413_8184249184174256721_n.jpg")'}} >
   <div className="container">
     <div className="row">
       <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
         <div >
-          <h1>We are students of <span>PN Viet Nam</span></h1>
-          <h2>We are Blue Team of PNV</h2>
+        <h1>Chúng tôi là <span>PN Việt Nam</span></h1>
+          <h2>PNV - nơi mở ra cánh cổng tương lai cho sinh viên nghèo Việt Nam </h2>
           <div className="text-center text-lg-left">
-          <a data-toggle="collapse" href="#donation2" className="collapsed">Donate Now</a>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" >Watch Video</a>
-          </div>
+          <a data-toggle="collapse" href="#donation2" className="collapsed">Ủng hộ ngay</a>
+            
+            <a href="https://www.facebook.com/passerelles.numeriques/videos/712653589394513" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" >Xem video</a>
+           </div>
         </div>
       </div>
       <div className="col-lg-5 order-1 order-lg-2 hero-img"  data-aos-delay={300}>
@@ -78,12 +79,13 @@ const Face=()=>{
     <div className="row">
       <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
         <div >
-          <h1>We are students of <span>PN Viet Nam</span></h1>
-          <h2>We are Blue Team of PNV</h2>
+        <h1>Chúng tôi là <span>PN Việt Nam</span></h1>
+          <h2>PNV - nơi mở ra cánh cổng tương lai cho sinh viên nghèo Việt Nam </h2>
           <div className="text-center text-lg-left">
-          <a data-toggle="collapse" href="#donation2" className="collapsed">Donate Now</a>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" >Watch Video</a>
-          </div>
+          <a data-toggle="collapse" href="#donation2" className="collapsed">Ủng hộ ngay</a>
+            
+            <a href="https://www.facebook.com/passerelles.numeriques/videos/712653589394513" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" >Xem video</a>
+              </div>
         </div>
       </div>
       <div className="col-lg-5 order-1 order-lg-2 hero-img" data-aos-delay={300}>

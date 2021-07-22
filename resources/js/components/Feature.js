@@ -29,8 +29,8 @@ class Feature extends Component {
     <section id="features" className="features">
     <div className="container">
       <div className="section-title"  >
-        <h2>Partner</h2>
-        <p>Our Partner</p>
+        <h2>PNV</h2>
+        <p>Đối tác</p>
       </div>
       <div className="row">
       {this.state.companys.map((company, i) => {

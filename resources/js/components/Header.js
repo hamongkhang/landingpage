@@ -45,14 +45,13 @@ class Header extends Component {
       <a href="index.html"><span><img src="assets/img/Phap.jpg"  /></span></a>
     </div>
       <ul>
-        <li className="active"><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#counts">Statistical</a></li>
-        <li><a href="#donationcss">Donation</a></li>
-        <li><a href="#cta">Alumni</a></li>
-        <li><a href="#features">Partner</a></li>
-        <li><a href="#faq">Recruitment</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li className="active"><a href="#hero">Trang chủ</a></li>
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#donationcss">Ủng hộ</a></li>
+        <li><a href="#cta">Cựu sinh viên</a></li>
+        <li><a href="#features">Đối tác</a></li>
+        <li><a href="#faq">Tuyển dụng</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
       </ul>
     </nav>
   </div>

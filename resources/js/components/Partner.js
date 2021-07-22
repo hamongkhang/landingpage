@@ -9,7 +9,7 @@ const Partner=()=>{
         <section id="portfolio" className="portfolio">
         <div className="container"  >
           <div className="section-title">
-            <h2>Mục chính</h2>
+            <h2>PNV</h2>
             <p>Đối tác</p>
           </div>
           <div className="row"   data-aos-delay={100}>

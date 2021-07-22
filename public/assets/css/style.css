@@ -9,6 +9,204 @@
 # General
 --------------------------------------------------------------*/
 
+.title-form-donate{
+  margin-left:40px;
+  margin-right: 10px;
+  background-color: #00aeff;
+  padding: 5px 5px 5px 5px;
+}
+
+.contacttt{
+  margin-top: 30px;
+  background-color: #00aeff;
+  color:white;
+  border:solid #00aeff;
+  border-radius: 5px;
+}
+.sumaryy{
+  margin-top: 30px;
+  background-color: #00aeff;
+  color:white;
+  border:solid #00aeff;
+  border-radius: 5px;
+}
+.right-form{
+  background-color: #00aeff;
+  /* margin:10px 0px 0px 0px; */
+  display:grid;
+  color:white;
+  border:solid #00aeff;
+  border-radius: 5px;
+}
+
+
+body {
+font-family: "Open Sans", sans-serif;
+color: #444444;
+}
+.donnnn{
+  margin-top: 50px;
+}
+.sumary{
+  /* margin-top: 100px; */
+  margin-bottom: 20px;
+}
+a:hover {
+color: #34e5a6;
+text-decoration: none;
+}
+#amount{
+
+  margin:10px 0 0 0;
+}
+#donation .tabs .nav-tabs {
+  border: none;
+}
+
+#donation .tabs .nav-link {
+  border: 2px solid  #15c9f7;
+
+  color: #111111;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.btn-main{
+width: 50px;
+/* background: black; */
+}
+#donationcss #donation{
+  margin:80px 20px 20px 20px;
+}
+#donationcss #donation #form1{
+  background-color: #00aeff;
+  color:black;
+  border-radius: 5px;
+  padding: 20px 5px 5px 10px;
+}
+#donationcss #donation #form2{
+  background-color: #00aeff;
+  color:black;
+  border-radius: 5px;
+  margin-top:50px;
+  padding: 20px 5px 5px 10px;
+}
+#donationcss #donation #form3{
+  background-color: #00aeff;
+  color:black;
+  border-radius: 5px;
+  padding: 20px 5px 5px 10px;
+  margin-top:50px;
+}
+#donationcss #donation #form1 #form1_child{
+  margin: 5px 5px 5px 5px;
+}
+
+#donationcss #donation #form2 #form2_child{
+  margin: 5px 5px 5px 5px;
+}
+#donationcss #donation #form3 #form3_child{
+  margin: 5px 5px 5px 5px;
+}
+#item .nav-link.active{
+  background:rgb(255, 166, 0);
+  height:50px;
+  border-radius:5px;
+  color:white;
+}
+#text{
+  background:white;
+  height:50px;
+  border-radius:5px;
+  color:black;
+}
+#text:hover{
+  background:rgb(255, 166, 0);
+  height:50px;
+  border-radius:5px;
+  color:white;
+}
+#donation .tabs{
+  border:solid black;
+}
+#donation .tabs .nav-link i {
+
+  font-size: 48px;
+  color:rgb(255, 166, 0);
+}
+
+#donation .tabs .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+#donation .tabs .nav-link:hover {
+  color: #15c9f7;
+
+}
+
+#donation .tabs .nav-link.active {
+  background: orange;
+  color: #fff;
+  border-color: #15c9f7;
+}
+
+@media (max-width: 768px) {
+  h1{
+    font-size: 36px;
+  }
+  #donation .click-chose .tabs .nav-link i {
+    padding: 0;
+    line-height: 1;
+    font-size: 36px;
+  }
+
+}
+@media (max-width: 575px) {
+  h1{
+    font-size: 24px;
+  }
+  #donation .click-chose .tabs .nav-link {
+    padding: 15px;
+  }
+  #donation .click-chose .tabs .nav-link i {
+    font-size: 24px;
+  }
+
+}
+
+/* #donation .tabs .tab-content {
+  margin-top: 30px;
+} */
+
+#donation .tabs .tab-pane h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+#donation .tabs .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+#donation .tabs .tab-pane ul li {
+  padding-bottom: 10px;
+}
+
+#donation .tabs .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #15c9f7;
+}
+
+#donation .tabs .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------- end css donation----------------------------------------- */
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -475,7 +673,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .share {
   width: 100%;
-  height:400px;
+  height:500px;
   background: url("../img/Copy of IMG_5469.jpg") fixed center center;;
   position: relative;
 }

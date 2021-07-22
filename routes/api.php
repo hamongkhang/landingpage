@@ -44,6 +44,7 @@ Route::get('/staff', 'StaffController@index')->name('staff.all');
 Route::get('/status', 'StatusController@index')->name('status.all');
 
 
+Route::post('/contacts','ContactController@mail');
 
 Route::get('/bangtins', 'BangtinController@index')->name('bangtins.all');
 

@@ -30,7 +30,7 @@ class Team extends Component {
       <div className='container-fluid'    > 
       <div className="container">
       <div className="section-title">
-          <h2>Mục chính</h2>
+          <h2>PNV</h2>
           <p>Đội ngũ nhân viên</p>
         </div> 
         </div>   

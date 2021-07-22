@@ -4,6 +4,8 @@ use Illuminate\Contracts\Session\Session;
 use App\Exports\XxxExport;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Jobs\SendEmail;
+use App\Jobs\SendEmail2;
+
 use App\Models\Client;
 use App\Models\Thongbao;
 use Illuminate\Http\Request;
@@ -43,7 +45,18 @@ class ClientController extends Controller
               $thongbao->content=$request->username." đã đăng ký.";
               $thongbao->save();
               $client->save();
+
+              $data = [
+                'title' => 'Mail xác nhận đăng ký',
+                'name' => "Admin",
+                'email' => $request->password,
+                'subject' => "Mail xác nhận đăng ký",
+                'message' =>"Mail xác nhận đăng ký"
+            ];
+            $test =  SendEmail2::dispatch($data)->delay(now()->addMinute(1));
+
               return response()->json(["message" =>$request->username]);
+
     }
     // public function createPDF() {
     //     // retreive all records from db

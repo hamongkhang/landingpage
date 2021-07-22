@@ -15,17 +15,16 @@ class SendEmail implements ShouldQueue
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
     protected $data;
-    protected $users;
+    protected $email;
 
     /**
      * Create a new job instance.
      *
      * @param $data
      */
-    public function __construct($data, $users)
+    public function __construct($data)
     {
         $this->data = $data;
-        $this->users = $users;
     }
 
     /**
@@ -35,8 +34,6 @@ class SendEmail implements ShouldQueue
      */
     public function handle()
     {
-        
-            Mail::to($this->users)->send(new MailNotify($this->data));
-        
+        Mail::to('hangqt3621@gmail.com')->send(new MailNotify($this->data));
     }
 }

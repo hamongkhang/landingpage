@@ -28,7 +28,7 @@ class Galery extends Component {
     <section id="gallery" className="gallery">
     <div className="container">
       <div className="section-title"  >
-        <h2>Mục chính</h2>
+        <h2>PNV</h2>
         <p>Thư viện kỉ niệm</p>
       </div>
       <div className="row no-gutters">
