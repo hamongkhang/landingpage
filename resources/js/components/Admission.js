@@ -28,7 +28,7 @@ class Admission extends Component {
       return(
     this.state.admissions.map((admission, i) => {
     return(
-        <p>
+        <p key={admission.id}>
       {admission.admission_content}
         </p>
          )})

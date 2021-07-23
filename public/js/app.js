@@ -2117,7 +2117,7 @@ var Admission = /*#__PURE__*/function (_Component) {
       return this.state.admissions.map(function (admission, i) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
           children: admission.admission_content
-        });
+        }, admission.id);
       });
     }
   }]);
@@ -3216,773 +3216,775 @@ var Donation = function Donation() {
               children: "\u1EE6ng h\u1ED9"
             })
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          id: "donation2",
-          className: "collapse",
-          "data-parent": ".donationcss-list",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-            id: "close",
-            "data-toggle": "collapse",
-            href: "#donation2",
-            className: "collapsed",
-            children: "X"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "row ",
-            id: "donation",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "col-sm-6 ",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                id: "form1",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  id: "form1_child",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h5", {
-                    className: "text-center",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("b", {
-                      children: "T\xC0I TR\u1EE2 C\u1EE6A T\xD4I"
-                    })
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                    className: "nav  row d-flex font-italic",
-                    id: "item",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                      className: "nav-item col-6  ",
-                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                        className: "nav-link active show",
-                        "data-toggle": "tab",
-                        href: "#tab-amount",
-                        id: "text",
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                          className: "ntthang",
-                          children: ["  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
-                            children: "h\u1ED7 tr\u1EE3 1 l\u1EA7n"
-                          })]
-                        })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            id: "donation2",
+            className: "collapse",
+            "data-parent": ".donationcss-list",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+              id: "close",
+              "data-toggle": "collapse",
+              href: "#donation2",
+              className: "collapsed",
+              children: "X"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+              className: "row ",
+              id: "donation",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "col-sm-6 ",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                  id: "form1",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    id: "form1_child",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h5", {
+                      className: "text-center",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("b", {
+                        children: "T\xC0I TR\u1EE2 C\u1EE6A T\xD4I"
                       })
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                      className: "nav-item col-6 ",
-                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                        className: "nav-link",
-                        "data-toggle": "tab",
-                        href: "#tab-month",
-                        id: "text",
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                          className: "ntthang",
-                          children: ["  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
-                            children: "h\u1ED7 tr\u1EE3 h\u1EB1ng th\xE1ng "
-                          })]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                      className: "nav  row d-flex font-italic",
+                      id: "item",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                        className: "nav-item col-6  ",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                          className: "nav-link active show",
+                          "data-toggle": "tab",
+                          href: "#tab-amount",
+                          id: "text",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                            className: "ntthang",
+                            children: ["  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
+                              children: "h\u1ED7 tr\u1EE3 1 l\u1EA7n"
+                            })]
+                          })
                         })
-                      })
-                    })]
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "tab-content",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "tab-pane active show",
-                      id: "tab-amount",
-                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "row",
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
-                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                            className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
-                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                              className: "amount",
-                              id: "amount",
-                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h6", {
-                                className: "text-center font-italic ",
-                                children: "s\u1ED1 ti\u1EC1n t\xE0i tr\u1EE3:"
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                                className: "nav row",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                                  className: "nav-item col-2",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                                    className: "click-chose",
-                                    "data-toggle": "tab",
-                                    href: "#money1",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                      className: "btn btn-light",
-                                      type: "button",
-                                      value: " 15 \u20AC "
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                        className: "nav-item col-6 ",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                          className: "nav-link",
+                          "data-toggle": "tab",
+                          href: "#tab-month",
+                          id: "text",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                            className: "ntthang",
+                            children: ["  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
+                              children: "h\u1ED7 tr\u1EE3 h\u1EB1ng th\xE1ng "
+                            })]
+                          })
+                        })
+                      })]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                      className: "tab-content",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                        className: "tab-pane active show",
+                        id: "tab-amount",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                          className: "row",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
+                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                              className: "col-lg-10 order-2 order-lg-1 mt-3 mt-lg-0",
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "amount",
+                                id: "amount",
+                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h6", {
+                                  className: "text-center font-italic ",
+                                  children: "s\u1ED1 ti\u1EC1n t\xE0i tr\u1EE3:"
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                  className: "nav row",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                                    className: "nav-item col-2",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                      className: "click-chose",
+                                      "data-toggle": "tab",
+                                      href: "#money1",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                        className: "btn btn-light",
+                                        type: "button",
+                                        value: " 15 \u20AC "
+                                      })
                                     })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                                  className: "nav-item col-2",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                                    className: "click-chose",
-                                    "data-toggle": "tab",
-                                    href: "#money2",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                      className: "btn btn-light",
-                                      type: "button",
-                                      value: "45 \u20AC "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                                    className: "nav-item col-2",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                      className: "click-chose",
+                                      "data-toggle": "tab",
+                                      href: "#money2",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                        className: "btn btn-light",
+                                        type: "button",
+                                        value: "45 \u20AC "
+                                      })
                                     })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                                  className: "nav-item col-2",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                                    className: "click-chose",
-                                    "data-toggle": "tab",
-                                    href: "#money3",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                      className: "btn btn-light",
-                                      type: "button",
-                                      value: "75 \u20AC "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                                    className: "nav-item col-2",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                      className: "click-chose",
+                                      "data-toggle": "tab",
+                                      href: "#money3",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                        className: "btn btn-light",
+                                        type: "button",
+                                        value: "75 \u20AC "
+                                      })
                                     })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                                  className: "nav-item col-2",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                                    className: "click-chose",
-                                    "data-toggle": "tab",
-                                    href: "#money4",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                      className: "btn btn-light",
-                                      type: "button",
-                                      value: "150 \u20AC"
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                                    className: "nav-item col-2",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                      className: "click-chose",
+                                      "data-toggle": "tab",
+                                      href: "#money4",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                        className: "btn btn-light",
+                                        type: "button",
+                                        value: "150 \u20AC"
+                                      })
                                     })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                                  className: "nav-item col-2",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                                    className: "nav-item col-2",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                      className: "click-chose",
+                                      "data-toggle": "tab",
+                                      href: "#money5",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                        className: "btn btn-light bbb",
+                                        type: "button",
+                                        value: "400 \u20AC"
+                                      })
+                                    })
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "tab-content",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                    className: "tab-pane",
+                                    id: "money1",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                      className: "row",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                          className: "font-italic",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                            children: "gi\xFAp trang tr\u1EA3i chi ph\xED y t\u1EBF c\u1EE7a m\u1ED9t sinh vi\xEAn trong m\u1ED9t n\u0103m \u1EDF Vi\u1EC7t Nam"
+                                          })
+                                        })
+                                      })
+                                    })
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                    className: "tab-pane ",
+                                    id: "money2",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                      className: "row",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                          className: "font-italic",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                            children: "l\xE0 chi ph\xED trang tr\u1EA3i cho 38 gi\u1EDD h\u1ECDc IT c\u1EE7a m\u1ED9t sinh vi\xEAn"
+                                          })
+                                        })
+                                      })
+                                    })
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                    className: "tab-pane",
+                                    id: "money3",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                      className: "row",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                          className: "font-italic",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                            children: "l\xE0 chi ph\xED h\u1ED7 tr\u1EE3 sinh ho\u1EA1t cho 1 sinh vi\xEAn trong 2 th\xE1ng r\u1ED3i"
+                                          })
+                                        })
+                                      })
+                                    })
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                    className: "tab-pane",
+                                    id: "money4",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                      className: "row",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                          className: "font-italic",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                            children: "bao g\u1ED3m kh\xF3a h\u1ECDc ti\u1EBFng Anh c\u1EE7a m\u1ED9t sinh vi\xEAn trong m\u1ED9t n\u0103m \u1EDF Campuchia"
+                                          })
+                                        })
+                                      })
+                                    })
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                    className: "tab-pane",
+                                    id: "money5",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                      className: "row",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                          className: "font-italic",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                            children: "trang tr\u1EA3i chi ph\xED m\xE1y t\xEDnh \u0111\u1EC3 trang b\u1ECB ph\xF2ng m\xE1y"
+                                          })
+                                        })
+                                      })
+                                    })
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "otherAmount font-italic",
+                                  children: ["  s\u1ED1 ti\u1EC1n kh\xE1c:", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
                                     className: "click-chose",
                                     "data-toggle": "tab",
-                                    href: "#money5",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                      className: "btn btn-light bbb",
-                                      type: "button",
-                                      value: "400 \u20AC"
+                                    href: "#money",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("center", {
+                                      children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                        type: "number",
+                                        className: "form-control-sm form-light ",
+                                        id: "otherAmonut"
+                                      })]
+                                    })
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                  className: "tab-content",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                    className: "tab-pane",
+                                    id: "money",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                      className: "row",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                          className: "font-italic",
+                                          children: "s\u1ED1 ti\u1EC1n t\xE0i tr\u1EE3 c\u1EE7a b\u1EA1n s\u1EBD g\xF3p ph\u1EA7n h\u1ED7 tr\u1EE3 ph\xE1t tri\u1EC3n c\u1EE7a c\xE1c b\u1EA1n sinh vi\xEAn PNV"
+                                        })
+                                      })
                                     })
                                   })
                                 })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "tab-content",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                  className: "tab-pane",
-                                  id: "money1",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "row",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                      className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
-                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                        className: "font-italic",
-                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                          children: "gi\xFAp trang tr\u1EA3i chi ph\xED y t\u1EBF c\u1EE7a m\u1ED9t sinh vi\xEAn trong m\u1ED9t n\u0103m \u1EDF Vi\u1EC7t Nam"
-                                        })
-                                      })
-                                    })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                  className: "tab-pane ",
-                                  id: "money2",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "row",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                      className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
-                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                        className: "font-italic",
-                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                          children: "l\xE0 chi ph\xED trang tr\u1EA3i cho 38 gi\u1EDD h\u1ECDc IT c\u1EE7a m\u1ED9t sinh vi\xEAn"
-                                        })
-                                      })
-                                    })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                  className: "tab-pane",
-                                  id: "money3",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "row",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                      className: "col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0",
-                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                        className: "font-italic",
-                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                          children: "l\xE0 chi ph\xED h\u1ED7 tr\u1EE3 sinh ho\u1EA1t cho 1 sinh vi\xEAn trong 2 th\xE1ng r\u1ED3i"
-                                        })
-                                      })
-                                    })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                  className: "tab-pane",
-                                  id: "money4",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "row",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                      className: "col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0",
-                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                        className: "font-italic",
-                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                          children: "bao g\u1ED3m kh\xF3a h\u1ECDc ti\u1EBFng Anh c\u1EE7a m\u1ED9t sinh vi\xEAn trong m\u1ED9t n\u0103m \u1EDF Campuchia"
-                                        })
-                                      })
-                                    })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                  className: "tab-pane",
-                                  id: "money5",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "row",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                      className: "col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0",
-                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                        className: "font-italic",
-                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                          children: "trang tr\u1EA3i chi ph\xED m\xE1y t\xEDnh \u0111\u1EC3 trang b\u1ECB ph\xF2ng m\xE1y"
-                                        })
-                                      })
-                                    })
-                                  })
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "otherAmount font-italic",
-                                children: ["  s\u1ED1 ti\u1EC1n kh\xE1c:", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                                  className: "click-chose",
-                                  "data-toggle": "tab",
-                                  href: "#money",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("center", {
-                                    children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                      type: "number",
-                                      className: "form-control-sm form-light ",
-                                      id: "otherAmonut"
-                                    })]
-                                  })
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                className: "tab-content",
-                                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                  className: "tab-pane",
-                                  id: "money",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "row",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                      className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
-                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                        className: "font-italic",
-                                        children: "s\u1ED1 ti\u1EC1n t\xE0i tr\u1EE3 c\u1EE7a b\u1EA1n s\u1EBD g\xF3p ph\u1EA7n h\u1ED7 tr\u1EE3 ph\xE1t tri\u1EC3n c\u1EE7a c\xE1c b\u1EA1n sinh vi\xEAn PNV"
-                                      })
-                                    })
-                                  })
-                                })
-                              })]
+                              })
                             })
                           })
                         })
-                      })
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "tab-pane",
-                      id: "tab-month",
-                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "row",
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
-                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                            className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
-                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                              className: "amount",
-                              id: "amount",
-                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h6", {
-                                className: "text-center font-italic",
-                                children: "h\u1ED7 tr\u1EE3 h\u1EB1ng th\xE1ng v\u1EDBi s\u1ED1 ti\u1EC1n: "
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                                className: "nav row",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                                  className: "nav-item col-2",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                                    className: "click-chose",
-                                    "data-toggle": "tab",
-                                    href: "#monthly1",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                      className: "btn btn-light ",
-                                      type: "button",
-                                      value: " 15 \u20AC "
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                        className: "tab-pane",
+                        id: "tab-month",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                          className: "row",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
+                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                              className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "amount",
+                                id: "amount",
+                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h6", {
+                                  className: "text-center font-italic",
+                                  children: "h\u1ED7 tr\u1EE3 h\u1EB1ng th\xE1ng v\u1EDBi s\u1ED1 ti\u1EC1n: "
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                  className: "nav row",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                                    className: "nav-item col-2",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                      className: "click-chose",
+                                      "data-toggle": "tab",
+                                      href: "#monthly1",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                        className: "btn btn-light ",
+                                        type: "button",
+                                        value: " 15 \u20AC "
+                                      })
                                     })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                                  className: "nav-item col-2",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                                    className: "click-chose",
-                                    "data-toggle": "tab",
-                                    href: "#monthly1",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                      className: "btn btn-light",
-                                      type: "button",
-                                      value: "25 \u20AC "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                                    className: "nav-item col-2",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                      className: "click-chose",
+                                      "data-toggle": "tab",
+                                      href: "#monthly1",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                        className: "btn btn-light",
+                                        type: "button",
+                                        value: "25 \u20AC "
+                                      })
                                     })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                                  className: "nav-item col-2",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                                    className: "click-chose",
-                                    "data-toggle": "tab",
-                                    href: "#monthly3",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                      className: "btn btn-light",
-                                      type: "button",
-                                      value: "50 \u20AC "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                                    className: "nav-item col-2",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                      className: "click-chose",
+                                      "data-toggle": "tab",
+                                      href: "#monthly3",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                        className: "btn btn-light",
+                                        type: "button",
+                                        value: "50 \u20AC "
+                                      })
                                     })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                                  className: "nav-item col-2",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                                    className: "nav-item col-2",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                                      className: "click-chose",
+                                      "data-toggle": "tab",
+                                      href: "#monthly3",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                        className: "btn btn-light",
+                                        type: "button",
+                                        value: "75 \u20AC  "
+                                      })
+                                    })
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "tab-content",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                    className: "tab-pane",
+                                    id: "monthly1",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                      className: "row",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                          className: "font-italic",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                            children: "trang tr\u1EA3i h\u1ECDc ph\xED cho m\u1ED9t sinh vi\xEAn \u1EDF Vi\u1EC7t Nam trong m\u1ED9t n\u0103m"
+                                          })
+                                        })
+                                      })
+                                    })
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                    className: "tab-pane ",
+                                    id: "monthly2",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                      className: "row",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                          className: "font-italic",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                            children: "bao \u0103n cho m\u1ED9t sinh vi\xEAn trong m\u1ED9t th\xE1ng \u1EDF Philippines"
+                                          })
+                                        })
+                                      })
+                                    })
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                    className: "tab-pane",
+                                    id: "monthly3",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                      className: "row",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                          className: "font-italic",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                            children: "trang tr\u1EA3i chi ph\xED \u0103n \u1EDF cho 16 sinh vi\xEAn trong m\u1ED9t th\xE1ng \u1EDF Campuchia"
+                                          })
+                                        })
+                                      })
+                                    })
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                    className: "tab-pane",
+                                    id: "monthly4",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                      className: "row",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                          className: "font-italic",
+                                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                            children: "bao g\u1ED3m c\xE1c l\u1EDBp h\u1ECDc ti\u1EBFng Anh cho 6 h\u1ECDc sinh trong m\u1ED9t th\xE1ng \u1EDF Campuchia"
+                                          })
+                                        })
+                                      })
+                                    })
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "otherAmount font-italic",
+                                  children: ["  s\u1ED1 ti\u1EC1n kh\xE1c:", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
                                     className: "click-chose",
                                     "data-toggle": "tab",
-                                    href: "#monthly3",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                      className: "btn btn-light",
-                                      type: "button",
-                                      value: "75 \u20AC  "
+                                    href: "#monthly",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("center", {
+                                      children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                        type: "number",
+                                        className: "form-control-sm form-light ",
+                                        id: "otherAmonut2"
+                                      })]
+                                    })
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                  className: "tab-content",
+                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                    className: "tab-pane",
+                                    id: "monthly",
+                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                      className: "row",
+                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                                        className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
+                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                                          className: "font-italic",
+                                          children: "s\u1ED1 ti\u1EC1n t\xE0i tr\u1EE3 c\u1EE7a b\u1EA1n s\u1EBD g\xF3p ph\u1EA7n h\u1ED7 tr\u1EE3 ph\xE1t tri\u1EC3n c\u1EE7a c\xE1c b\u1EA1n sinh vi\xEAn PNV"
+                                        })
+                                      })
                                     })
                                   })
                                 })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "tab-content",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                  className: "tab-pane",
-                                  id: "monthly1",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "row",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                      className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
-                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                        className: "font-italic",
-                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                          children: "trang tr\u1EA3i h\u1ECDc ph\xED cho m\u1ED9t sinh vi\xEAn \u1EDF Vi\u1EC7t Nam trong m\u1ED9t n\u0103m"
-                                        })
-                                      })
-                                    })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                  className: "tab-pane ",
-                                  id: "monthly2",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "row",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                      className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
-                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                        className: "font-italic",
-                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                          children: "bao \u0103n cho m\u1ED9t sinh vi\xEAn trong m\u1ED9t th\xE1ng \u1EDF Philippines"
-                                        })
-                                      })
-                                    })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                  className: "tab-pane",
-                                  id: "monthly3",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "row",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                      className: "col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0",
-                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                        className: "font-italic",
-                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                          children: "trang tr\u1EA3i chi ph\xED \u0103n \u1EDF cho 16 sinh vi\xEAn trong m\u1ED9t th\xE1ng \u1EDF Campuchia"
-                                        })
-                                      })
-                                    })
-                                  })
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                  className: "tab-pane",
-                                  id: "monthly4",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "row",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                      className: "col-lg-12 order-2 order-lg-1 mt-2 mt-lg-0",
-                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                        className: "font-italic",
-                                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                          children: "bao g\u1ED3m c\xE1c l\u1EDBp h\u1ECDc ti\u1EBFng Anh cho 6 h\u1ECDc sinh trong m\u1ED9t th\xE1ng \u1EDF Campuchia"
-                                        })
-                                      })
-                                    })
-                                  })
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "otherAmount font-italic",
-                                children: ["  s\u1ED1 ti\u1EC1n kh\xE1c:", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                                  className: "click-chose",
-                                  "data-toggle": "tab",
-                                  href: "#monthly",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("center", {
-                                    children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                      type: "number",
-                                      className: "form-control-sm form-light ",
-                                      id: "otherAmonut2"
-                                    })]
-                                  })
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                className: "tab-content",
-                                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                  className: "tab-pane",
-                                  id: "monthly",
-                                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                    className: "row",
-                                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                                      className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
-                                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                                        className: "font-italic",
-                                        children: "s\u1ED1 ti\u1EC1n t\xE0i tr\u1EE3 c\u1EE7a b\u1EA1n s\u1EBD g\xF3p ph\u1EA7n h\u1ED7 tr\u1EE3 ph\xE1t tri\u1EC3n c\u1EE7a c\xE1c b\u1EA1n sinh vi\xEAn PNV"
-                                      })
-                                    })
-                                  })
-                                })
-                              })]
+                              })
                             })
                           })
                         })
+                      })]
+                    })]
+                  })
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                  id: "form2",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    id: "form2_child",
+                    className: "font-italic",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h5", {
+                      className: "text-center sumary",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("b", {
+                        children: "T\u1ED4NG H\u1EE2P"
                       })
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                      className: "table-responsive",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                        children: "B\u1EA1n c\xF3 th\u1EC3 t\u1EA1o ra s\u1EF1 kh\xE1c bi\u1EC7t v\xE0 thay \u0111\u1ED5i cu\u1ED9c s\u1ED1ng c\u1EE7a nh\u1EEFng thanh ni\xEAn c\xF3 ho\xE0n c\u1EA3nh kh\xF3 kh\u0103n b\u1EB1ng c\xE1ch h\u1ED7 tr\u1EE3 t\u1ED5 ch\u1EE9c Passerelles num\xE9riques."
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                        children: "s\u1EF1 h\u1ED7 tr\u1EE3 c\u1EE7a c\xE1c b\u1EA1n s\u1EBD gi\xFAp sinh vi\xEAn PNV \"nu\xF4i hi v\u1ECDng\" v\xE0 th\u1EF1c hi\u1EC7n h\xF3a \"\u01B0\u1EDBc m\u01A1\" c\u1EE7a minh."
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                        children: " ch\xFAng t\xF4i r\u1EA5t tr\xE2n tr\u1ECDng m\u1ECDi s\u1EF1 gi\xFAp \u0111\u1EE1 d\xF9 l\xE0 10,000 hay 50,000 "
+                      })]
                     })]
-                  })]
-                })
+                  })
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                  id: "form3",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    id: "form3_child",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h5", {
+                      className: "text-center",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("b", {
+                        children: "LI\xCAN H\u1EC6 V\u1EDAI CH\xDANG T\xD4I"
+                      })
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                      className: "font-italic text-center",
+                      children: ["31, rue de l'Ourcq 75019 Paris ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "+33 1 42 00 84 89 ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "julie.laporte@passerellesnumeriques.org ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                        children: ["https://www.passerellesnumeriques.org/en/ ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "https://www.facebook.com/passerelles.numeriques/"]
+                      })]
+                    })]
+                  })
+                })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                id: "form2",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  id: "form2_child",
-                  className: "font-italic",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h5", {
-                    className: "text-center sumary",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("b", {
-                      children: "T\u1ED4NG H\u1EE2P"
-                    })
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "table-responsive",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                      children: "B\u1EA1n c\xF3 th\u1EC3 t\u1EA1o ra s\u1EF1 kh\xE1c bi\u1EC7t v\xE0 thay \u0111\u1ED5i cu\u1ED9c s\u1ED1ng c\u1EE7a nh\u1EEFng thanh ni\xEAn c\xF3 ho\xE0n c\u1EA3nh kh\xF3 kh\u0103n b\u1EB1ng c\xE1ch h\u1ED7 tr\u1EE3 t\u1ED5 ch\u1EE9c Passerelles num\xE9riques."
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                      children: "s\u1EF1 h\u1ED7 tr\u1EE3 c\u1EE7a c\xE1c b\u1EA1n s\u1EBD gi\xFAp sinh vi\xEAn PNV \"nu\xF4i hi v\u1ECDng\" v\xE0 th\u1EF1c hi\u1EC7n h\xF3a \"\u01B0\u1EDBc m\u01A1\" c\u1EE7a minh."
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                      children: " ch\xFAng t\xF4i r\u1EA5t tr\xE2n tr\u1ECDng m\u1ECDi s\u1EF1 gi\xFAp \u0111\u1EE1 d\xF9 l\xE0 10,000 hay 50,000 "
+                className: "col-sm-6",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                  id: "form1",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    id: "form1_child",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h5", {
+                      "class": "text-center",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("b", {
+                        children: "TH\xD4NG TIN C\u1EE6A B\u1EA0N"
+                      })
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                      className: "nav row d-flex font-italic",
+                      id: "item2",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                        className: "nav-item col-6",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                          className: "nav-link active show ",
+                          "data-toggle": "tab",
+                          href: "#tab-1",
+                          id: "text",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                            className: "ntthang",
+                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
+                              children: "C\xE1 nh\xE2n "
+                            })
+                          })
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
+                        className: "nav-item col-6",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+                          className: "nav-link",
+                          "data-toggle": "tab",
+                          href: "#tab-2",
+                          id: "text",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                            className: "ntthang",
+                            children: ["  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
+                              children: "T\u1ED5 ch\u1EE9c"
+                            })]
+                          })
+                        })
+                      })]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                      className: "tab-content",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                        className: "tab-pane",
+                        id: "tab-2",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                          className: "row",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                            className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
+                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                              className: "font-italic",
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
+                                id: "toChuc",
+                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "fullname",
+                                    children: "t\xEAn c\xF4ng ti ho\u1EB7c t\u1ED5 ch\u1EE9c"
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "text",
+                                    className: "form-control form-light organization",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  style: {
+                                    width: '50%',
+                                    "float": 'left'
+                                  },
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "lastName",
+                                    children: "t\xEAn* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "text",
+                                    className: "form-control form-light lastName",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  style: {
+                                    width: '50%',
+                                    "float": 'left'
+                                  },
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "firstName",
+                                    children: "h\u1ECD* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "text",
+                                    className: "form-control form-light firstName",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  style: {
+                                    width: '50%',
+                                    "float": 'left'
+                                  },
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "emailform",
+                                    children: "\u0111\u1ECBa ch\u1EC9 email* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "email",
+                                    className: "form-control form-light emailform",
+                                    id: " "
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  style: {
+                                    width: '50%',
+                                    "float": 'left'
+                                  },
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "phoneNum",
+                                    children: "s\u1ED1 \u0111i\u1EC7n tho\u1EA1i* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "number",
+                                    className: "form-control form-light phoneNum",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "birthday",
+                                    children: "ng\xE0y sinh* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "date",
+                                    className: "form-control form-light birthday",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "zipCode",
+                                    children: "ZIP code* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "number",
+                                    className: "form-control form-light zipCode",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "address",
+                                    children: "\u0111\u1ECBa ch\u1EC9 (\u0111\u01B0\u1EDDng)* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "text",
+                                    className: "form-control form-light address",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "city",
+                                    children: "th\xE0nh ph\u1ED1 (huy\u1EC7n)* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "text",
+                                    className: "form-control form-light city ",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "country",
+                                    children: "N\u01B0\u1EDBc* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "text",
+                                    className: "form-control form-light country",
+                                    id: " "
+                                  })]
+                                })]
+                              })
+                            })
+                          })
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                        className: "tab-pane active show",
+                        id: "tab-1",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                          className: "row",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                            className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
+                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+                              className: "font-italic",
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
+                                id: "caNhan",
+                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  style: {
+                                    width: '50%',
+                                    "float": 'left'
+                                  },
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "lastName",
+                                    children: "t\xEAn* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "text",
+                                    className: "form-control form-light lastName",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  style: {
+                                    width: '50%',
+                                    "float": 'left'
+                                  },
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "firstName",
+                                    children: "h\u1ECD* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "text",
+                                    className: "form-control form-light firstName",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  style: {
+                                    width: '50%',
+                                    "float": 'left'
+                                  },
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "emailform",
+                                    children: "\u0111\u1ECBa ch\u1EC9 email* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "email",
+                                    className: "form-control form-light emailform",
+                                    id: " "
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  style: {
+                                    width: '50%',
+                                    "float": 'left'
+                                  },
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "phoneNum",
+                                    children: "s\u1ED1 \u0111i\u1EC7n tho\u1EA1i* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "number",
+                                    className: "form-control form-light phoneNum",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "birthday",
+                                    children: "ng\xE0y sinh* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "date",
+                                    className: "form-control form-light birthday",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "zipCode",
+                                    children: "ZIP code* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "number",
+                                    className: "form-control form-light zipCode",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "address",
+                                    children: "\u0111\u1ECBa ch\u1EC9 (\u0111\u01B0\u1EDDng)* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "text",
+                                    className: "form-control form-light address",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "city",
+                                    children: "th\xE0nh ph\u1ED1 (huy\u1EC7n)* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "text",
+                                    className: "form-control form-light city ",
+                                    id: ""
+                                  })]
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                  className: "form-group",
+                                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                                    "for": "country",
+                                    children: "N\u01B0\u1EDBc* "
+                                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+                                    type: "text",
+                                    className: "form-control form-light country",
+                                    id: " "
+                                  })]
+                                })]
+                              })
+                            })
+                          })
+                        })
+                      })]
                     })]
-                  })]
+                  })
                 })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                id: "form3",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  id: "form3_child",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h5", {
-                    className: "text-center",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("b", {
-                      children: "LI\xCAN H\u1EC6 V\u1EDAI CH\xDANG T\xD4I"
-                    })
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                    className: "font-italic text-center",
-                    children: ["31, rue de l'Ourcq 75019 Paris ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "+33 1 42 00 84 89 ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "julie.laporte@passerellesnumeriques.org ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                      children: ["https://www.passerellesnumeriques.org/en/ ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "https://www.facebook.com/passerelles.numeriques/"]
-                    })]
-                  })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                  className: "nav-item",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
+                    type: "submit",
+                    className: "btn btn-secondary btn-lg btn-block donnnn",
+                    id: "send",
+                    children: "T\xE0i tr\u1EE3"
+                  })
                 })
               })]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "col-sm-6",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                id: "form1",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  id: "form1_child",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h5", {
-                    "class": "text-center",
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("b", {
-                      children: "TH\xD4NG TIN C\u1EE6A B\u1EA0N"
-                    })
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                    className: "nav row d-flex font-italic",
-                    id: "item2",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                      className: "nav-item col-6",
-                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                        className: "nav-link active show ",
-                        "data-toggle": "tab",
-                        href: "#tab-1",
-                        id: "text",
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                          className: "ntthang",
-                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
-                            children: "C\xE1 nh\xE2n "
-                          })
-                        })
-                      })
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                      className: "nav-item col-6",
-                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-                        className: "nav-link",
-                        "data-toggle": "tab",
-                        href: "#tab-2",
-                        id: "text",
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                          className: "ntthang",
-                          children: ["  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
-                            children: "T\u1ED5 ch\u1EE9c"
-                          })]
-                        })
-                      })
-                    })]
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "tab-content",
-                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "tab-pane",
-                      id: "tab-2",
-                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "row",
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                          className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
-                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                            className: "font-italic",
-                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
-                              id: "toChuc",
-                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "fullname",
-                                  children: "t\xEAn c\xF4ng ti ho\u1EB7c t\u1ED5 ch\u1EE9c"
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "text",
-                                  className: "form-control form-light organization",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                style: {
-                                  width: '50%',
-                                  "float": 'left'
-                                },
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "lastName",
-                                  children: "t\xEAn* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "text",
-                                  className: "form-control form-light lastName",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                style: {
-                                  width: '50%',
-                                  "float": 'left'
-                                },
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "firstName",
-                                  children: "h\u1ECD* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "text",
-                                  className: "form-control form-light firstName",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                style: {
-                                  width: '50%',
-                                  "float": 'left'
-                                },
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "emailform",
-                                  children: "\u0111\u1ECBa ch\u1EC9 email* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "email",
-                                  className: "form-control form-light emailform",
-                                  id: " "
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                style: {
-                                  width: '50%',
-                                  "float": 'left'
-                                },
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "phoneNum",
-                                  children: "s\u1ED1 \u0111i\u1EC7n tho\u1EA1i* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "number",
-                                  className: "form-control form-light phoneNum",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "birthday",
-                                  children: "ng\xE0y sinh* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "date",
-                                  className: "form-control form-light birthday",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "zipCode",
-                                  children: "ZIP code* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "number",
-                                  className: "form-control form-light zipCode",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "address",
-                                  children: "\u0111\u1ECBa ch\u1EC9 (\u0111\u01B0\u1EDDng)* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "text",
-                                  className: "form-control form-light address",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "city",
-                                  children: "th\xE0nh ph\u1ED1 (huy\u1EC7n)* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "text",
-                                  className: "form-control form-light city ",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "country",
-                                  children: "N\u01B0\u1EDBc* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "text",
-                                  className: "form-control form-light country",
-                                  id: " "
-                                })]
-                              })]
-                            })
-                          })
-                        })
-                      })
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "tab-pane active show",
-                      id: "tab-1",
-                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "row",
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                          className: "col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0",
-                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                            className: "font-italic",
-                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
-                              id: "caNhan",
-                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                style: {
-                                  width: '50%',
-                                  "float": 'left'
-                                },
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "lastName",
-                                  children: "t\xEAn* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "text",
-                                  className: "form-control form-light lastName",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                style: {
-                                  width: '50%',
-                                  "float": 'left'
-                                },
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "firstName",
-                                  children: "h\u1ECD* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "text",
-                                  className: "form-control form-light firstName",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                style: {
-                                  width: '50%',
-                                  "float": 'left'
-                                },
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "emailform",
-                                  children: "\u0111\u1ECBa ch\u1EC9 email* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "email",
-                                  className: "form-control form-light emailform",
-                                  id: " "
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                style: {
-                                  width: '50%',
-                                  "float": 'left'
-                                },
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "phoneNum",
-                                  children: "s\u1ED1 \u0111i\u1EC7n tho\u1EA1i* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "number",
-                                  className: "form-control form-light phoneNum",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "birthday",
-                                  children: "ng\xE0y sinh* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "date",
-                                  className: "form-control form-light birthday",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "zipCode",
-                                  children: "ZIP code* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "number",
-                                  className: "form-control form-light zipCode",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "address",
-                                  children: "\u0111\u1ECBa ch\u1EC9 (\u0111\u01B0\u1EDDng)* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "text",
-                                  className: "form-control form-light address",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "city",
-                                  children: "th\xE0nh ph\u1ED1 (huy\u1EC7n)* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "text",
-                                  className: "form-control form-light city ",
-                                  id: ""
-                                })]
-                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "form-group",
-                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                                  "for": "country",
-                                  children: "N\u01B0\u1EDBc* "
-                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                                  type: "text",
-                                  className: "form-control form-light country",
-                                  id: " "
-                                })]
-                              })]
-                            })
-                          })
-                        })
-                      })
-                    })]
-                  })]
-                })
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("center", {
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "nav-item",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  type: "submit",
-                  className: "btn btn-secondary btn-lg btn-block donnnn",
-                  id: "send",
-                  children: "T\xE0i tr\u1EE3"
-                })
-              })
             })]
-          })]
+          })
         })]
       })]
     })
@@ -5357,7 +5359,7 @@ var Map = /*#__PURE__*/function (_Component) {
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
               className: "cta-btn",
-              href: "",
+              href: "https://www.passerellesnumeriques.org/wp-content/uploads/2016/08/PNV_OrgaChart_April2021.pdf",
               children: "T\u1EA3i v\u1EC1 \u0111\u1EC3 xem chi ti\u1EBFt s\u01A1 \u0111\u1ED3"
             })]
           })

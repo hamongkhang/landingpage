@@ -45,7 +45,7 @@ class Map extends Component {
              <li>Lucas SINROD, Trưởng phòng Đào tạo</li> */}
         </ul>
             </div>
-        <a className="cta-btn" href="">Tải về để xem chi tiết sơ đồ</a>
+        <a className="cta-btn" href="https://www.passerellesnumeriques.org/wp-content/uploads/2016/08/PNV_OrgaChart_April2021.pdf">Tải về để xem chi tiết sơ đồ</a>
       </div>
     </div>
   </section>

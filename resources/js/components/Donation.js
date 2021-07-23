@@ -9,7 +9,8 @@ const Donation = () => {
           <center><a data-toggle="collapse" href="#donation2" className="collapsed">
             <button type="button">Ủng hộ</button>
           </a></center>
-          <div id="donation2" className="collapse" data-parent=".donationcss-list">
+          <center>
+            <div id="donation2" className="collapse" data-parent=".donationcss-list">
             <a id="close" data-toggle="collapse" href="#donation2" className="collapsed">
               X
             </a>
@@ -39,7 +40,7 @@ const Donation = () => {
                       <div className="tab-pane active show" id="tab-amount">
                         <div className="row">
                           <center>
-                            <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
+                            <div className="col-lg-10 order-2 order-lg-1 mt-3 mt-lg-0">
                               <div className="amount" id="amount">
                                 <h6 className="text-center font-italic ">số tiền tài trợ:</h6>
 
@@ -420,6 +421,7 @@ const Donation = () => {
 
 
           </div>
+          </center>
         </div>
       </div>
     </section >

@@ -26,6 +26,7 @@ class Header extends Component {
     render(){
       return(
   <header id="header" className="fixed-top d-flex align-items-center header-transparent">
+    
   <div className="container d-flex align-items-center">
 
     <div className="logo mr-auto">
