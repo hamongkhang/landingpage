@@ -22,6 +22,7 @@ Route::get('/expenses', 'ExpenseController@index')->name('expenses.all');
 Route::post('/expenses', 'ExpenseController@store')->name('expenses.store');
 Route::post('/clients', 'ClientController@store')->name('clients.store');
 
+Route::post('/donations', 'DonationController@store')->name('donations.store');
 
 Route::get('/expenses/{expense}', 'ExpenseController@show')->name('expenses.show');
 

@@ -38,16 +38,16 @@ const App=()=>{
         <Alumni />
         <Feature />
         <Map />
-         <Team />
+        <Team />
         <Galery />
-         <Testimonial /> 
+        <Testimonial /> 
         <FAQ />
     </main>
     <Contact />
     <Footer />
     <div className="bangtin"><a data-toggle="collapse" href="#bangtinclass"><h3>Bảng tin</h3></a></div>
     <Bangtin />
-    <a href="#hero" className="back-to-top"><i className="icofont-simple-up" /></a>
+    <a href="#" className="back-to-top"><i className="icofont-simple-up" /></a>
     <div id="preloader" ></div>
     </Router>
   );

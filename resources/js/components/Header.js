@@ -46,7 +46,7 @@ class Header extends Component {
       <a href="index.html"><span><img src="assets/img/Phap.jpg"  /></span></a>
     </div>
       <ul>
-        <li className="active"><a href="#hero">Trang chủ</a></li>
+        <li className="active"><a href="#">Trang chủ</a></li>
         <li><a href="#about">Giới thiệu</a></li>
         <li><a href="#donationcss">Ủng hộ</a></li>
         <li><a href="#cta">Cựu sinh viên</a></li>

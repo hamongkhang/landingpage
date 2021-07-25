@@ -11,14 +11,13 @@ const Face=()=>{
           <h2>PNV - nơi mở ra cánh cổng tương lai cho sinh viên nghèo Việt Nam </h2>
           <div className="text-center text-lg-left">
             <a data-toggle="collapse" href="#donation2" className="collapsed">Ủng hộ ngay</a>
-            
             <a href="https://www.facebook.com/passerelles.numeriques/videos/712653589394513" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true" >Xem video</a>
           </div>
         </div>
       </div>
       <div className="col-lg-5 order-1 order-lg-2 hero-img"  data-aos-delay={300}>
       <div className="img-fluid animated"> .</div>
-      <img src="assets/img/hero-img.png" className="img-fluid animated" alt="" />
+      <a data-toggle="collapse" href="#donation3" className="collapsed"><img src="assets/img/collage a (2).png" className="img-fluid animated" alt="" /></a>
         <div className="img-fluid animated">.</div>
       </div>
     </div>
@@ -54,7 +53,7 @@ const Face=()=>{
       </div>
       <div className="col-lg-5 order-1 order-lg-2 hero-img"  data-aos-delay={300}>
       <div className="img-fluid animated"> .</div>
-      <img src="assets/img/hero-img.png" className="img-fluid animated" alt="" />
+      <a data-toggle="collapse" href="#donation3" className="collapsed"><img src="assets/img/collage a (2).png" className="img-fluid animated" alt="" /></a>
         <div className="img-fluid animated">.</div>
       </div>
     </div>
@@ -90,7 +89,7 @@ const Face=()=>{
       </div>
       <div className="col-lg-5 order-1 order-lg-2 hero-img" data-aos-delay={300}>
       <div className="img-fluid animated"> .</div>
-      <img src="assets/img/hero-img.png" className="img-fluid animated" alt="" />
+      <a data-toggle="collapse" href="#donation3" className="collapsed"><img src="assets/img/collage a (2).png" className="img-fluid animated" alt="" /></a>
         <div className="img-fluid animated">.</div>
       </div>
     </div>

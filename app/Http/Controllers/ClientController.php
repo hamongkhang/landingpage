@@ -51,7 +51,7 @@ class ClientController extends Controller
                 'name' => "Admin",
                 'email' => $request->password,
                 'subject' => "Mail xác nhận đăng ký",
-                'message' =>"Mail xác nhận đăng ký"
+                'message' =>"http://localhost:8000/"
             ];
             $test =  SendEmail2::dispatch($data)->delay(now()->addMinute(1));
 
