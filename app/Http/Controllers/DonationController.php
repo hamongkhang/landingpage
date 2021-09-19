@@ -87,5 +87,5 @@ class DonationController extends Controller
             //header('Location: ' . $jsonResult['payUrl']);
      
     }
-   
+  
 }
